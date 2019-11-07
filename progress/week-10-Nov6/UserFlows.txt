@@ -1,0 +1,5 @@
+User flows of GiveMe5Recipes
+
+1. A user can visit the website from homepage to a recipe detail page looking into catagory pages.
+2. A user can visit the certain recipe page in the website and go to homepage and other catagories from that page
+3. A user can subscribe recipes push from the website in everypage by clicking the "subscribe" button in navigation bar
