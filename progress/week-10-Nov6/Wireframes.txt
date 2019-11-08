@@ -1,0 +1,17 @@
+
+Wireframes of the “Category pages (in three different breakpoints)”
+1. Wireframe of the category page of GiveMe5Recipe. Breakpoint: 500 
+http://framebox.org/AJFqN
+2. Wireframe of the category page of GiveMe5Recipe. Breakpoint: 800
+http://framebox.org/AJFqU 
+3. Wireframe of the category page of GiveMe5Recipe. Breakpoint: 1000
+http://framebox.org/AJFQU 
+
+Wireframes of the “Detail pages (in three different breakpoints)”	
+1. Wireframe of the detail page of GiveMe5Recipe. Breakpoint: 500
+http://framebox.org/AJFrg
+2. Wireframe of the detail page of GiveMe5Recipe. Breakpoint: 800
+http://framebox.org/AJFrt 
+3. Wireframe of the detail page of GiveMe5Recipe. Breakpoint: 1000
+http://framebox.org/AJFRm 
+
