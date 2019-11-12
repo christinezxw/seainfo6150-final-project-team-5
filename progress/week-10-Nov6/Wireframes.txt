@@ -15,3 +15,20 @@ http://framebox.org/AJFrt
 3. Wireframe of the detail page of GiveMe5Recipe. Breakpoint: 1000
 http://framebox.org/AJFRm 
 
+
+
+----home page-----
+1000
+http://framebox.org/AJiHQ
+
+500
+http://framebox.org/AJiiW
+
+800
+http://framebox.org/AJiip
+
+----about us----
+http://framebox.org/AJiIi
+
+----404----
+http://framebox.org/AJiIW
