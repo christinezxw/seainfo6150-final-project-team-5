@@ -1,15 +1,32 @@
-{
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
+[
+  {
+    "id": 1,
+    "name": "mapo tofu",
+    "category": 1,
+    "summary": "spicy and delicious chinese food!",
+    "img": {
+      "url": "www.foo.com",
+      "height": 200,
+      "width": 400
+    },
+    "level": 1,
+    "time": {
+      "prepare": 1,
+      "inactive": 2,
+      "cook": 3
+    },
+
+    "yield": 3,
+    "ingredients": [
+      "tofu",
+      "pepper",
+      "soy souce"
+    ],
+
+    "directions": [
+      "worm the pot",
+      "pour materials",
+      "finish"
+    ]
+  }
+]
