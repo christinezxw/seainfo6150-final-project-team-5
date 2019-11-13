@@ -1,32 +1,197 @@
 [
   {
-    "id": 1,
-    "name": "mapo tofu",
-    "category": 1,
-    "summary": "spicy and delicious chinese food!",
+    "id": 3001,
+    "name": "Minestrone Soup",
+    "category": "soup",
+    "summary": "Quick and easy and delicious",
     "img": {
-      "url": "www.foo.com",
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/11/1/2/FNM_120110-Ask-Ellie-001_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382539602880.jpeg",
       "height": 200,
       "width": 400
     },
-    "level": 1,
-    "time": {
-      "prepare": 1,
-      "inactive": 2,
-      "cook": 3
-    },
-
-    "yield": 3,
+    "level": "Easy",
+    "time": "45 min",
+    "yield": 6,
     "ingredients": [
-      "tofu",
-      "pepper",
-      "soy souce"
+      "2 tablespoons extra-virgin olive oil",
+      "1 large onion, diced",
+      "4 cloves garlic, minced",
+      "2 stalks celery, diced",
+      "1 large carrot, diced",
+      "1/3 pound green beans, trimmed and cut into 1/2-inch pieces (about 1 1/2 cups)",
+      "1 teaspoon dried oregano",
+      "1 teaspoon dried basil",
+      "Kosher salt and freshly ground pepper",
+      "28-ounce can no-salt-added diced tomatoes",
+      "14-ounce can crushed tomatoes",
+      "6 cups low-sodium chicken broth",
+      "15-ounce can low-sodium kidney beans, drained and rinsed",
+      "1 cup elbow pasta",
+      "1/3 cup finely grated parmesan cheese",
+      "2 tablespoons chopped fresh basil"
     ],
-
     "directions": [
-      "worm the pot",
-      "pour materials",
-      "finish"
+      "Heat the olive oil in a large pot over medium-high heat. Add the onion and cook until translucent, about 4 minutes. Add the garlic and cook 30 seconds. Add the celery and carrot and cook until they begin to soften, about 5 minutes. Stir in the green beans, dried oregano and basil, 3/4 teaspoon salt, and pepper to taste; cook 3 more minutes.",
+      "Add the diced and crushed tomatoes and the chicken broth to the pot and bring to a boil. Reduce the heat to medium low and simmer 10 minutes. Stir in the kidney beans and pasta and cook until the pasta and vegetables are tender, about 10 minutes. Season with salt. Ladle into bowls and top with the parmesan and chopped basil.",
+    ]
+  },
+  {
+    "id": 3002,
+    "name": "Taco Soup",
+    "category": "soup",
+    "summary": "Best taco soup recipe ever! Super easy and super tasty! Thanks for making cooking easy.",
+    "img": {
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/23/0/FN_taco-soup-010_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371602869888.jpeg",
+      "height": 200,
+      "width": 400
+    },
+    "level": "Easy",
+    "time": "6 hr 15 min",
+    "yield": 12,
+    "ingredients": [
+      "2 pounds ground beef",
+      "2 cups diced onions",
+      "15 1/2-ounce cans pinto beans",
+      "15 1/2-ounce can pink kidney beans",
+      "15 1/4-ounce can whole kernel corn, drained",
+      "14 1/2-ounce can Mexican-style stewed tomatoes",
+      "14 1/2-ounce can diced tomatoes",
+      "14 1/2-ounce can tomatoes with chiles",
+      "4 1/2-ounce cans diced green chiles",
+      "4.6-ounce can black olives, drained and sliced, optional",
+      "1/2 cup green olives, sliced, optional",
+      "1 1/4-ounce package taco seasoning mix",
+      "1-ounce package ranch salad dressing mix",
+      "Corn chips, for serving",
+      "Sour cream, for garnish",
+      "Grated cheese, for garnish",
+      "Chopped green onions, for garnish",
+      "Pickled jalapenos, for garnish"
+    ],
+    "directions": [
+      "Brown the ground beef and onions in a large skillet; drain the excess fat, then transfer the browned beef and onions to a large slow cooker or a stockpot. Add the beans, corn, tomatoes, green chiles, black olives, green olives, taco seasoning, and ranch dressing mix, and cook in a slow cooker on low for 6 to 8 hours or simmer over low heat for about 1 hour in a pot on the stove. To serve, place a few corn chips in each bowl and ladle soup over them. Top with sour cream, cheese, green onions and jalapenos."
+    ]
+  },
+  {
+    "id": 3003,
+    "name": "Chicken Tortilla Soup",
+    "category": "soup",
+    "summary": "Good base recipe - I added cumin, chili powder, red pepper flakes, hot sauce and 2 bay leaves to sauté into the onion and jalapeño. Added a can of sweet corn and only used one lime.",
+    "img": {
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/6/11/0/RB0112_Chicken-Tortilla-Soup.jpg.rend.hgtvcom.826.620.suffix/1371587417881.jpeg",
+      "height": 200,
+      "width": 400
+    },
+    "level": "Easy",
+    "time": "35 min",
+    "yield": 5,
+    "ingredients": [
+      "2 tablespoons vegetable oil",
+      "1 small onion, diced",
+      "2 tablespoons minced garlic",
+      "2 jalapenos, finely diced",
+      "6 cups low-sodium chicken broth",
+      "One 14.5-ounce can fire-roasted diced tomatoes",
+      "One 14.5-ounce can black beans, rinsed and drained",
+      "3 chicken breasts, boneless and skinless",
+      "2 limes, juiced, plus wedges for garnish",
+      "Salt and freshly ground black pepper",
+      "1 cup roughly chopped fresh cilantro leaves",
+      "One 8-inch flour tortilla, grilled, cut into thin strips",
+      "1 avocado, pitted, sliced",
+      "1 cup shredded Monterrey cheese"
+    ],
+    "directions": [
+      "Heat the olive oil in a large pot over medium-high heat. Add the onion and cook until translucent, about 4 minutes. Add the garlic and cook 30 seconds. Add the celery and carrot and cook until they begin to soften, about 5 minutes. Stir in the green beans, dried oregano and basil, 3/4 teaspoon salt, and pepper to taste; cook 3 more minutes.",
+      "Add the diced and crushed tomatoes and the chicken broth to the pot and bring to a boil. Reduce the heat to medium low and simmer 10 minutes. Stir in the kidney beans and pasta and cook until the pasta and vegetables are tender, about 10 minutes. Season with salt. Ladle into bowls and top with the parmesan and chopped basil."
+    ]
+  },
+  {
+    "id": 3004,
+    "name": "Lentil Soup",
+    "category": "soup",
+    "summary": "This was actually delicious and very hearty. I used red split lentils from Trader Joe's and 4 cups of water and a veggie bouillon cube instead of the suggested two quarts of broth. Also added a dash of red pepper flakes instead of grains of paradise.",
+    "img": {
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2007/1/19/0/ea1015_soup1.jpg.rend.hgtvcom.826.620.suffix/1382538506113.jpeg",
+      "height": 200,
+      "width": 400
+    },
+    "level": "Intermediate",
+    "time": "1 hr 15 min",
+    "yield": 7,
+    "ingredients": [
+      "2 tablespoons olive oil",
+      "1 cup finely chopped onion",
+      "1/2 cup finely chopped carrot",
+      "1/2 cup finely chopped celery",
+      "2 teaspoons kosher salt",
+      "1 pound lentils, picked and rinsed",
+      "1 cup peeled and chopped tomatoes",
+      "2 quarts chicken or vegetable broth",
+      "1/2 teaspoon freshly ground coriander",
+      "1/2 teaspoon freshly ground toasted cumin",
+      "1/2 teaspoon freshly ground grains of paradise"
+    ],
+    "directions": [
+      "Place the olive oil into a large 6-quart Dutch oven and set over medium heat. Once hot, add the onion, carrot, celery and salt and sweat until the onions are translucent, approximately 6 to 7 minutes. Add the lentils, tomatoes, broth, coriander, cumin and grains of paradise and stir to combine. Increase the heat to high and bring just to a boil. Reduce the heat to low, cover and cook at a low simmer until the lentils are tender, approximately 35 to 40 minutes. Using a stick blender, puree to your preferred consistency. Serve immediately."
+    ]
+  },
+  {
+    "id": 3005,
+    "name": "Butternut Squash Soup",
+    "category": "soup",
+    "summary": "Easy to make and pretty fast, but thought it was too liquidy. Would suggest to use less broth or more squash to thicken it up.",
+    "img": {
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/23/1/FN_butternut-soup-008_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371602919396.jpeg",
+      "height": 200,
+      "width": 400
+    },
+    "level": "Intermediate",
+    "time": "1 hr",
+    "yield": 6,
+    "ingredients": [
+      "2- to 3-pound butternut squash, peeled and seeded",
+      "2 tablespoons unsalted butter",
+      "1 medium onion, chopped",
+      "6 cups chicken stock",
+      "Nutmeg",
+      "Salt and freshly ground black pepper"
+    ],
+    "directions": [
+      "Cut squash into 1-inch chunks. In large pot melt butter. Add onion and cook until translucent, about 8 minutes. Add squash and stock. Bring to a simmer and cook until squash is tender, about 15 to 20 minutes. Remove squash chunks with slotted spoon and place in a blender and puree. Return blended squash to pot. Stir and season with nutmeg, salt, and pepper. Serve."
+    ]
+  },
+  {
+    "id": 3006,
+    "name": "Garden Vegetable Soup",
+    "category": "soup",
+    "summary": "I love this garden vegetable soup! Very tasty and healthy. Thank you for posting.",
+    "img": {
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/6/15/1/JI_28714_s4x3.jpg.rend.hgtvcom.826.620.suffix/1397748095589.jpeg",
+      "height": 200,
+      "width": 400
+    },
+    "level": "Intermediate",
+    "time": "1 hr 25 min",
+    "yield": 6,
+    "ingredients": [
+      "4 tablespoons olive oil",
+      "2 cups chopped leeks, white part only (from approximately 3 medium leeks)",
+      "2 tablespoons finely minced garlic",
+      "Kosher salt",
+      "2 cups carrots, peeled and chopped into rounds (approximately 2 medium)",
+      "2 cups peeled and diced potatoes",
+      "2 cups fresh green beans, broken or cut into 3/4-inch pieces",
+      "2 quarts chicken or vegetable broth",
+      "4 cups peeled, seeded, and chopped tomatoes",
+      "2 ears corn, kernels removed",
+      "1/2 teaspoon freshly ground black pepper",
+      "1/4 cup packed, chopped fresh parsley leaves",
+      "1 to 2 teaspoons freshly squeezed lemon juice"
+    ],
+    "directions": [
+      "Heat the olive oil in large, heavy-bottomed stockpot over medium-low heat. Once hot, add the leeks, garlic, and a pinch of salt and sweat until they begin to soften, approximately 7 to 8 minutes. Add the carrots, potatoes, and green beans and continue to cook for 4 to 5 more minutes, stirring occasionally.",
+      "Add the stock, increase the heat to high, and bring to a simmer. Once simmering, add the tomatoes, corn kernels, and pepper. Reduce the heat to low, cover, and cook until the vegetables are fork tender, approximately 25 to 30 minutes. Remove from heat and add the parsley and lemon juice. Season, to taste, with kosher salt. Serve immediately."
     ]
   }
 ]
