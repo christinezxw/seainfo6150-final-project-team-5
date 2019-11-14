@@ -434,4 +434,211 @@
     ]
   }
 
+  {
+    "id": 1001,
+    "name": "Perfect Roast Turkey",
+    "category": "thanksgiving",
+    "summary": "This recipe creates the BEST Thanksgiving turkey. Not dry and yummy all over!",
+    "img": {
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/11/24/0/IG1C11_Roast-Turkey.jpg.rend.hgtvcom.826.620.suffix/1382538696807.jpeg",
+      "height": ,
+      "width": 
+    },
+    "level": "Intermediate",
+    "totaltime": "3 hr 20 min",
+
+    "yield": 8,
+    "ingredients": [
+      "1/4 pound (1 stick) unsalted butter",
+      "1 lemon, zested and juiced",
+      "1 teaspoon chopped fresh thyme leaves",
+      "1 fresh turkey (10 to 12 pounds)",
+      "Kosher salt",
+      "Freshly ground black pepper",
+      "1 large bunch fresh thyme",
+      "1 whole lemon, halved",
+      "1 Spanish onion, quartered",
+      "1 head garlic, halved crosswise"
+    ],
+
+    "directions": [
+      "Preheat the oven to 350 degrees F.",
+      "Melt the butter in a small saucepan. Add the zest and juice of the lemon and 1 teaspoon of thyme leaves to the butter mixture. Set aside.",
+      "Take the giblets out of the turkey and wash the turkey inside and out. Remove any excess fat and leftover pinfeathers and pat the outside dry. Place the turkey in a large roasting pan. Liberally salt and pepper the inside of the turkey cavity. Stuff the cavity with the bunch of thyme, halved lemon, quartered onion, and the garlic. Brush the outside of the turkey with the butter mixture and sprinkle with salt and pepper. Tie the legs together with string and tuck the wing tips under the body of the turkey.",
+      "Roast the turkey about 2 1/2 hours, or until the juices run clear when you cut between the leg and the thigh. Remove the turkey to a cutting board and cover with aluminum foil; let rest for 20 minutes.",
+      "Slice the turkey and serve."
+    ]
+  }
+
+  {
+    "id": 1002,
+    "name": "The Best Sweet Potato Casserole",
+    "category": "thanksgiving",
+    "summary": "A chuckle for the posts that say.. \"after I altered the entire recipe, we loved it.\"",
+    "img": {
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/4/12/1/FNK_Sweet-Potato-Casserole_s4x3.jpg.rend.hgtvcom.826.620.suffix/1460503592924.jpeg",
+      "height": ,
+      "width": 
+    },
+    "level": "Easy",
+    "totaltime": "60 min",
+
+    "yield": 7,
+    "ingredients": [
+      "1/2 stick (4 tablespoons) unsalted butter, melted, plus more for buttering the baking dish",
+      "3 to 4 large sweet potatoes (about 1 3/4 pounds), peeled and cubed ",
+      "1/2 cup milk",
+      "1/4 cup brown sugar, packed",
+      "1 teaspoon pure vanilla extract",
+      "1/2 teaspoon kosher salt",
+      "2 large eggs",
+      "1/2 cup all-purpose flour",
+      "1/2 cup brown sugar, packed",
+      "1/2 stick (4 tablespoons) unsalted butter, melted",
+      "1/4 teaspoon kosher salt",
+      "3/4 cup chopped pecans"
+    ],
+
+    "directions": [
+      "For the sweet potatoes: Add 1 3/4 pounds peeled and cubed sweet potatoes to a large pot of salted water. Bring to a boil over high heat, then lower the heat to a simmer and cook until the potatoes are very tender, 15 to 20 minutes. Drain and cool. Mash the sweet potatoes.",
+      "For the filling: Preheat the oven to 350 degrees F. Butter a 2-quart baking dish.",
+      "Whisk together the butter, mashed sweet potatoes, milk, brown sugar, vanilla, salt and eggs in a large bowl. Transfer to the prepared baking dish.",
+      "For the topping: Combine the flour, brown sugar, butter and salt in a medium bowl until moist and the mixture clumps together. Stir in the pecans. Spread the mixture over the top of the sweet potatoes in an even layer. Bake until mostly set in the center and golden on top, 25 to 30 minutes. Serve hot."
+    ]
+  }
+
+  {
+    "id": 1003,
+    "name": "Balsamic-Roasted Brussels Sprouts",
+    "category": "thanksgiving",
+    "summary": "Absolutely delicious! I’ve made this recipe at least 10 times and can’t wait for the next excuse to make it again!",
+    "img": {
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/3/26/0/BX0808H_balsamic-roasted-brussels-sprouts-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1402583469880.jpeg",
+      "height": ,
+      "width": 
+    },
+    "level": "Easy",
+    "totaltime": "50 min",
+
+    "yield": 6,
+    "ingredients": [
+      "1 1/2 pounds Brussels sprouts, trimmed and cut in half through the core",
+      "4 ounces pancetta, 1/4-inch-diced",
+      "1/4 cup good olive oil",
+      "Kosher salt and freshly ground black pepper",
+      "1 tablespoon syrupy balsamic vinegar"
+    ],
+
+    "directions": [
+      "Preheat the oven to 400 degrees. ",
+      "Place the Brussels sprouts on a sheet pan, including some of the loose leaves, which get crispy when they're roasted.",
+      "Add the pancetta, olive oil, 1 1/2 teaspoons salt, and 1/2 teaspoon pepper, toss with your hands, and spread out in a single layer.",
+      "Roast the Brussels sprouts for 20 to 30 minutes, until they're tender and nicely browned and the pancetta is cooked. ",
+      "Toss once during roasting. Remove from the oven, drizzle immediately with the balsamic vinegar, and toss again.",
+      "Taste for seasonings, and serve hot!"
+    ]
+  }
+
+  {
+    "id": 1004,
+    "name": "Perfect Cranberry Sauce",
+    "category": "thanksgiving",
+    "summary": "Hands down the best cranberry sauce recipe!  Perfect every time and it is always a hit with the family.  ",
+    "img": {
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/9/25/0/FNM-110109-Centerfold-006_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382539090248.jpeg",
+      "height": ,
+      "width": 
+    },
+    "level": "Easy",
+    "totaltime": "37 min",
+
+    "yield": 4,
+    "ingredients": [
+      "12-ounce of fresh or frozen cranberries",
+      "1 cup sugar",
+      "1 strip orange or lemon zest",
+      "2 tablespoons water"
+    ],
+
+    "directions": [
+      "Empty a 12-ounce bag of fresh or frozen cranberries into a saucepan and transfer 1/2 cup to a small bowl.",
+      "Add 1 cup sugar, 1 strip orange or lemon zest and 2 tablespoons water to the pan and cook over low heat, stirring occasionally, until the sugar dissolves and the cranberries are soft, about 10 minutes.",
+      "Increase the heat to medium and cook until the cranberries burst, about 12 minutes.",
+      "Reduce the heat to low and stir in the reserved cranberries.",
+      "Add sugar, salt and pepper to taste and cool to room temperature before serving."
+    ]
+  }
+
+  {
+    "id": 1005,
+    "name": "Sausage and Herb Stuffing",
+    "category": "thanksgiving",
+    "summary": "I Love This Recipe! But I double all the other ingredients except the bread to make the ratios better or half the amount of bread. ",
+    "img": {
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/8/10/0/Thanksgiving-2011_BX0105-sausage-and-herb-stuffing_s4x3.jpg.rend.hgtvcom.826.620.suffix/1384540899189.jpeg",
+      "height": ,
+      "width": 
+    },
+    "level": "Intermediate",
+    "totaltime": "1 hr 22 min",
+
+    "yield": 9,
+    "ingredients": [
+      "16 cups 1-inch bread cubes, white or sourdough (1 1/2 pound loaf)",
+      "8 tablespoons (1 stick) unsalted butter",
+      "2 cups medium-diced yellow onion (2 onions)",
+      "1 cup medium-diced celery (2 stalks)",
+      "2 Granny Smith apples, unpeeled, cored and large-diced",
+      "2 tablespoons chopped flat-leaf parsley",
+      "1 tablespoon kosher salt",
+      "1 teaspoon freshly ground black pepper",
+      "3/4 pound sweet or spicy Italian sausage, casings removed",
+      "1 cup chicken stock",
+      "1 cup dried cranberries"
+    ],
+
+    "directions": [
+      "Preheat the oven to 300 degrees F.",
+      "Place the bread cubes in a single layer on a sheet pan and bake for 7 minutes. Raise the oven temperature to 350 degrees F. Remove the bread cubes to a very large bowl.",
+      "Meanwhile, in a large saute pan, melt the butter and add the onions, celery, apples, parsley, salt and pepper. Saute over medium heat for 10 minutes, until the vegetables are softened. Add to the bread cubes.",
+      "In the same saute pan, cook the sausage over medium heat for about 10 minutes, until browned and cooked through, breaking up the sausage with a fork while cooking. Add to the bread cubes and vegetables.",
+      "Add the chicken stock and cranberries to the mixture, mix well, and pour into a 9 by 12-inch baking dish. Bake for 30 minutes, until browned on top and hot in the middle. Serve warm."
+    ]
+  }
+
+  {
+    "id": 1006,
+    "name": "Mashed Potatoes",
+    "category": "thanksgiving",
+    "summary": "Delish and easy! It’s a no brainer. Some mashies have so many ingredients. I wanted something easy and not too many ingredients and this delivered!! Sometimes no fuss is best!",
+    "img": {
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/9/3/0/mashedpotatoes_s4x3.jpg.rend.hgtvcom.826.620.suffix/1384541148269.jpeg",
+      "height": ,
+      "width": 
+    },
+    "level": "Easy",
+    "totaltime": "35 min",
+
+    "yield": 7,
+    "ingredients": [
+      "4 pounds golden creamer potatoes, peeled and cut into quarters",
+      "1 bay leaf",
+      "Kosher salt and freshly ground black pepper",
+      "2 cups heavy cream",
+      "3 tablespoons unsalted butter",
+      "2 tablespoons chopped chives"
+    ],
+
+    "directions": [
+      "Put the potatoes into a large pot, add the bay leaf, 2 tablespoons salt, and cover with cold water. ",
+      "Bring to a boil over medium-high heat and cook until the potatoes are tender, about 20 minutes. ",
+      "Drain them well and remove the bay leaf. ",
+      "Meanwhile, heat the cream and butter in a small saucepan. ",
+      "Put the potatoes through a ricer or food mill into a bowl. ",
+      "Add the hot cream and season with salt and pepper. ",
+      "Mix together with a spoon and add the chives."
+    ]
+  }
+  
+  
 ]
