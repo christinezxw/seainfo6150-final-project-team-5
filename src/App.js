@@ -36,7 +36,7 @@ function App() {
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/foo" exact component={Foo} />
+        {/* <Route path="/foo" exact component={Foo} />
         <Route
           path="/bar/:categoryId/:productId"
           exact
@@ -51,7 +51,7 @@ function App() {
           path="/baz"
           exact
           render={() => <Baz content={externalContent} />}
-        />
+        /> */}
         <Route component={Error} />
       </Switch>
     </Router>
