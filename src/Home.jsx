@@ -1,12 +1,12 @@
 import React from 'react'
-// import Form from "../Form/Form";
+import Card from './commonComponents/Card'
 
 const Home = () => {
     return (
-        <div>
-            The home page
-            <img src="/images/treefrog.jpg" alt="tree frog" />
-        </div>
+        <Card 
+        imgUrl="/images/treefrog.jpg"
+        desc="test desc"
+        />
     )
 }
 
