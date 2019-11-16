@@ -6,6 +6,7 @@ const Home = () => {
         <Card 
         imgUrl="/images/treefrog.jpg"
         desc="test desc"
+        name="a frog"
         />
     )
 }
