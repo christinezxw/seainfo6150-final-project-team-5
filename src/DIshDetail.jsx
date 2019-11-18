@@ -10,39 +10,39 @@ const DishDetail = props => {
             <Navigation navigation={Object.values(navigation)} />
         </section> */}
         <section className = {styles.dishBody}>
-            <h1>{props.dish.name}</h1>
+            <h1 className = {styles.h1Title}>{props.dish.name}</h1>
             <div className = {styles.image}>
                 <img src={props.dish.img.url}/>
             </div>
             <div className = {styles.brief}>
                 <section>
-                    <h2>Summary</h2>
+                    <h2 className = {styles.h2Title}>Summary</h2>
                     <p>{props.dish.summary}</p>
                 </section>
                 <section>
-                    <h3>Level</h3>
+                    <h3 className = {styles.h3Title}>Level</h3>
                     <p>{props.dish.level}</p>
                 </section>
                 <section>
-                    <h3>Yield</h3>
+                    <h3 className = {styles.h3Title}>Yield</h3>
                     <p>{props.dish.yield}</p>
                 </section>
             </div>
             <div className = {styles.ingredients}>
-                <h2>Ingredients</h2>
-                <div className = {styles.gridsection}>
+                <h2 className = {styles.h2Title}>Ingredients</h2>
+                <ul className = {styles.gridsection}>
                     {props.dish.ingredients.map(ingredient => (
                     <li key={ingredient}>{ingredient}</li>
                     ))}
-                </div>
+                </ul>
             </div>
             <div className = {styles.directions}>
-                <h2>Directions</h2>
-                <div className = {styles.gridsection}>
+                <h2 className = {styles.h2Title}>Directions</h2>
+                <ol className = {styles.gridsection}>
                     {props.dish.directions.map(direction => (
                     <li key={direction}>{direction}</li>
                     ))}
-                </div>
+                </ol>
             </div>
         </section>
         {/* <section className = {styles.footer}>

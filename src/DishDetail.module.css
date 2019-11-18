@@ -1,0 +1,38 @@
+.dishBody{
+    font-family: Helvetica;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+}
+
+.h1Title{
+    color: rgb(198, 58, 27);
+    font-size: 25px;
+}
+
+.h2Title{
+    color: rgb(198, 58, 27);
+    font-size: 20px;
+}
+
+.h3Title{
+    color: rgb(198, 58, 27);
+    font-size: 15px;
+}
+
+.brief{
+    border: 2px solid rgb(237, 125, 50);
+}
+
+.ingredients{
+    border: 2px solid rgb(237, 125, 50);
+}
+
+.directions{
+    border: 2px solid rgb(237, 125, 50);
+}
+
+.image{
+    box-shadow: 0 6px 8px 0 dimgray; 
+}
