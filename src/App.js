@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./Home.jsx";
 import DishDetailPage from "./DishDetailPage"
 import Error from "./Error.jsx";
+import Subscribe from "./Subscribe.jsx";
+import AboutUs from "./AboutUs.jsx";
 
 const externalContent = {
   id: "article-1",
@@ -18,9 +20,9 @@ function App() {
       <header>
         <nav>
           <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
+            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/subscribe">Subscribe</Link></li>
+            <li><Link to="/aboutus">AboutUs</Link></li>
           </ul>
         </nav>
       </header>
@@ -28,6 +30,8 @@ function App() {
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/subscribe" exact component={Subscribe}/>
+        <Route path="/aboutus" exact component={AboutUs}/>
         <Route 
           path="/detail/:id"        
           exact
