@@ -7,14 +7,14 @@ const Home = () => {
         
         <section>
             <div className={styles.big_grid_1}><img src="/images/treefrog.jpg"></img></div>
-            <div><img src="/images/treefrog.jpg"></img></div>
-            <div><img src="/images/treefrog.jpg"></img></div>
-            <div><img src="/images/treefrog.jpg"></img></div>
-            <div><img src="/images/treefrog.jpg"></img></div>
-            <div><img src="/images/treefrog.jpg"></img></div>
-            <div><img src="/images/treefrog.jpg"></img></div>
-            <div><img src="/images/treefrog.jpg"></img></div>
-            <div><img src="/images/treefrog.jpg"></img></div>
+            <div><a href="/detail/1"><img src="/images/treefrog.jpg" href></img></a></div>
+            <div><a href="/detail/1"><img src="/images/treefrog.jpg" href></img></a></div>
+            <div><a href="/detail/1"><img src="/images/treefrog.jpg" href></img></a></div>
+            <div><a href="/detail/1"><img src="/images/treefrog.jpg" href></img></a></div>
+            <div><a href="/detail/1"><img src="/images/treefrog.jpg" href></img></a></div>
+            <div><a href="/detail/1"><img src="/images/treefrog.jpg" href></img></a></div>
+            <div><a href="/detail/1"><img src="/images/treefrog.jpg" href></img></a></div>
+            <div><a href="/detail/1"><img src="/images/treefrog.jpg" href></img></a></div>
             <div className={styles.big_grid_2}><img src="/images/treefrog.jpg"></img></div> 
         </section>
     )
