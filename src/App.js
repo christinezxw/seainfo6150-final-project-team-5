@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "./Home.jsx";
+import DishDetailPage from "./DishDetailPage"
 import Error from "./Error.jsx";
 
 const externalContent = {
@@ -27,9 +28,16 @@ function App() {
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route 
+          path="/detail/:id"        
+          exact
+          render={({ match }) => (
+            <DishDetailPage id={match.params.id}/>
+          )}
+        />
         <Route component={Error} />
       </Switch>
-    </Router>
+      </Router>
   );
 }
 
