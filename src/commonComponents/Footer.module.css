@@ -1,0 +1,11 @@
+.footer{
+    background: rgba(238, 147, 44, 0.5);
+    margin-top:10px;
+    padding:10px;
+}
+
+@media (min-width: 600px){
+    .footer{
+        margin: 10px;
+    }
+}
