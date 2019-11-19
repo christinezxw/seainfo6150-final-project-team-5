@@ -1,6 +1,14 @@
 
 
-section {
+
+
+
+
+
+
+
+/* > 1000 code point */
+.GridContainer {
     grid-auto-flow: column;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -13,7 +21,7 @@ section {
 
 
 
-section > div {
+.GridContainer > div {
     width: 90%;
     padding: 0.1em;
 }
