@@ -1,53 +1,45 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Navigation from './commonComponents/Navigation'
-import Footer from './commonComponents/Footer'
 import styles from './DishDetail.module.css'
 
 const DishDetail = props => {
     return <div>
-        {/* <section className = {styles.navigation}>
-            <Navigation navigation={Object.values(navigation)} />
-        </section> */}
-        <section className = {styles.dishBody}>
+        <div className = {styles.dishBody}>
             <h1 className = {styles.h1Title}>{props.dish.name}</h1>
-            <div className = {styles.image}>
+            <div className = {styles.image} >
                 <img src={props.dish.img.url}/>
             </div>
-            <div className = {styles.brief}>
-                <section>
+            <div className = {styles.brief,styles.bodySection}>
+                <div>
                     <h2 className = {styles.h2Title}>Summary</h2>
                     <p>{props.dish.summary}</p>
-                </section>
-                <section>
+                </div>
+                <div>
                     <h3 className = {styles.h3Title}>Level</h3>
                     <p>{props.dish.level}</p>
-                </section>
-                <section>
+                </div>
+                <div>
                     <h3 className = {styles.h3Title}>Yield</h3>
                     <p>{props.dish.yield}</p>
-                </section>
+                </div>
             </div>
-            <div className = {styles.ingredients}>
+            <div className = {styles.ingredients,styles.bodySection}>
                 <h2 className = {styles.h2Title}>Ingredients</h2>
-                <ul className = {styles.gridsection}>
+                <ul className = {styles.griddiv}>
                     {props.dish.ingredients.map(ingredient => (
                     <li key={ingredient}>{ingredient}</li>
                     ))}
                 </ul>
             </div>
-            <div className = {styles.directions}>
+            <div className = {styles.directions,styles.bodySection}>
                 <h2 className = {styles.h2Title}>Directions</h2>
-                <ol className = {styles.gridsection}>
+                <ol className = {styles.griddiv}>
                     {props.dish.directions.map(direction => (
                     <li key={direction}>{direction}</li>
                     ))}
                 </ol>
             </div>
-        </section>
-        {/* <section className = {styles.footer}>
-            <Footer footer={Object.values(footer)} />
-        </section> */}
+        </div>
     </div>
 }
 DishDetail.propTypes = {

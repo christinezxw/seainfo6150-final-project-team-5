@@ -1,38 +1,81 @@
 .dishBody{
-    font-family: Helvetica;
-    font-size: 15px;
+    font-family: Palatino, serif;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     flex-flow: column nowrap;
+    background: rgba(238, 147, 44, 0.5);
+}
+.bodySection{
+    margin:10px;
+    padding:10px;
+    border: 2px solid rgb(237, 125, 50);
+    background: white;
 }
 
 .h1Title{
     color: rgb(198, 58, 27);
-    font-size: 25px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 30px;
+    margin:10px;
+    padding:10px;
+    
 }
 
 .h2Title{
     color: rgb(198, 58, 27);
-    font-size: 20px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 25px;
 }
 
 .h3Title{
     color: rgb(198, 58, 27);
-    font-size: 15px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
 }
 
-.brief{
-    border: 2px solid rgb(237, 125, 50);
-}
-
-.ingredients{
-    border: 2px solid rgb(237, 125, 50);
-}
-
-.directions{
-    border: 2px solid rgb(237, 125, 50);
-}
 
 .image{
-    box-shadow: 0 6px 8px 0 dimgray; 
+    margin:10px;
+    /* box-shadow: 0 6px 8px 0 dimgray;  */
+}
+
+@media (min-width: 600px){
+    .dishBody{
+        background: white;
+        font-size: 15px;
+    }
+    .bodySection{
+        column-count: 2;
+    }
+    .bodySection{
+        border: 2px solid rgb(237, 125, 50);position:relative;
+    }
+    .h1Title{
+        font-size: 25px;
+    }
+    .h2Title{
+        font-size: 20px;
+        display: block;
+        background: white;
+        position: absolute;
+        left: 10px;
+        top: -30px;
+        text-align: center;
+    }
+    .h3Title{
+        font-size: 15px;
+    }
+    .image{
+        width: 100%;
+        height: 70vw;
+    }
+    img{
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (min-width: 800px){
+
 }
