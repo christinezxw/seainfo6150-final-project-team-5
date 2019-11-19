@@ -3,10 +3,16 @@ import styles from './Card.module.css'
 
 
 const Card = (props) => {
+    var link = "#"
+    if (props.link) {
+        link = props.link
+    } 
     return (
         <div className={styles.container}>
-            <div className={styles.pic}><img src={props.imgUrl} alt={props.name} /></div>
-            <div>{props.desc}</div>
+            <a href={link}>
+                <div className={styles.pic}><img src={props.imgUrl} alt={props.name} /></div>
+                <div>{props.desc}</div>
+            </a>
         </div>
     )
 }

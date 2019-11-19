@@ -44,13 +44,13 @@ export default class Home extends Component {
                 <div>
                     <p>screen width : {this.state.width}</p>
                     <p>code point 2</p>
-                    <Card imgUrl="/images/treefrog.jpg" desc="test1"/>
-                    <Card imgUrl="/images/treefrog.jpg" desc="test2"/>
-                    <Card imgUrl="/images/treefrog.jpg" desc="test3"/>
-                    <Card imgUrl="/images/treefrog.jpg" desc="test4"/>
-                    <Card imgUrl="/images/treefrog.jpg" desc="test5"/>
-                    <Card imgUrl="/images/treefrog.jpg" desc="test6"/>
-                    <Card imgUrl="/images/treefrog.jpg" desc="test7"/>
+                    <Card imgUrl="/images/treefrog.jpg" desc="1001" link="/detail/1001"/>
+                    <Card imgUrl="/images/treefrog.jpg" desc="1002" link="/detail/1002"/>
+                    <Card imgUrl="/images/treefrog.jpg" desc="1003" link="/detail/1003"/>
+                    <Card imgUrl="/images/treefrog.jpg" desc="1004" link="/detail/1004"/>
+                    <Card imgUrl="/images/treefrog.jpg" desc="1005" link="/detail/1005"/>
+                    <Card imgUrl="/images/treefrog.jpg" desc="1006" link="/detail/1006"/>
+                    <Card imgUrl="/images/treefrog.jpg" desc="3001" link="/detail/3001"/>
                 </div>
                 );
         } else {
