@@ -14,8 +14,8 @@
 
 .image{
     box-shadow: 0 6px 8px 0 dimgray; 
-    width:800px;
-    height: 600px;
+    /* width:800px; */
+    /* height: 600px; */
 }
 
 .summaryTitle{
