@@ -6,6 +6,7 @@ import DishDetailPage from "./DishDetailPage"
 import Error from "./Error.jsx";
 import Subscribe from "./Subscribe.jsx";
 import AboutUs from "./AboutUs.jsx";
+import Footer from './commonComponents/Footer.jsx'
 
 const externalContent = {
   id: "article-1",
@@ -41,6 +42,9 @@ function App() {
         />
         <Route component={Error} />
       </Switch>
+      <footer>
+        <Footer/>
+      </footer>
       </Router>
   );
 }
