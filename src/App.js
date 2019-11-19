@@ -20,7 +20,7 @@ function App() {
       <header>
         <nav>
           <ul>
-            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/subscribe">Subscribe</Link></li>
             <li><Link to="/aboutus">AboutUs</Link></li>
           </ul>
