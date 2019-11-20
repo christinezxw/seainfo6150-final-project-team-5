@@ -40,7 +40,7 @@ export default class Home extends Component {
                 <p><a href="/soup">Soup Category</a></p>
             </div>
             );
-        } else if (this.state.width < 800) {
+        } else if (this.state.width < 1000) {
 
             return (
                 <div>
@@ -54,7 +54,6 @@ export default class Home extends Component {
                 </div>
                 );
         } else {
-            var showDishes = new Set([1001, 1002, 1003, 1004, 1005, 1006, 3001, 3002]);
             return (
                 <div>
                 <p>screen width : {this.state.width}</p>
