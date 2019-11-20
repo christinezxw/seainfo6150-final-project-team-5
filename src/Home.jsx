@@ -77,15 +77,6 @@ export default class Home extends Component {
                     .slice(0,4)
                     .map(dish => (<div><a href={"/detail/" + dish.id}><img src={dish.img.url}></img></a></div>))
                 }
-                
-                {/* <div><a href="/detail/1001"><img src="/images/treefrog.jpg"></img></a></div>
-                <div><a href="/detail/1002"><img src="/images/treefrog.jpg"></img></a></div>
-                <div><a href="/detail/1003"><img src="/images/treefrog.jpg"></img></a></div>
-                <div><a href="/detail/1004"><img src="/images/treefrog.jpg"></img></a></div>
-                <div><a href="/detail/1005"><img src="/images/treefrog.jpg"></img></a></div>
-                <div><a href="/detail/1006"><img src="/images/treefrog.jpg" href></img></a></div>
-                <div><a href="/detail/3001"><img src="/images/treefrog.jpg" href></img></a></div>
-                <div><a href="/detail/3002"><img src="/images/treefrog.jpg" href></img></a></div> */}
                 <div className={styles.big_grid_2}>
                     <h1>Thanksgiving</h1>
                     <a href ="/thanksgiving recipe"><img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/3/26/0/BX0808H_balsamic-roasted-brussels-sprouts-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1402583469880.jpeg" href></img></a>
