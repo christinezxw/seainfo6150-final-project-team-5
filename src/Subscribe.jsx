@@ -59,6 +59,16 @@ export default class Subscribe extends Component {
                                 <option value="desserts">Desserts</option>
                             </select><br/>
                         </label>
+                        
+                        <label>
+                            Frequency
+                            <select value={this.state.value} onChange={this.handleChange}>
+                                <option value="Per Day">Per Day</option>
+                                <option value="Per Week">Per Week</option>
+                                <option value="Per Month">Per Month</option>
+                            </select><br/>
+                        </label>
+                        
                         <label>
                             <input type="submit" value="submit" />
                         </label>
