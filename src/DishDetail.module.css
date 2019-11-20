@@ -100,9 +100,25 @@
     .h1Title{
         font-size: 30px;
         position: absolute;
-        color: white;
+        color: rgb(198, 58, 27);
+        /* text-decoration-line: overline underline rgb(198, 58, 27); */
         z-index: 1;
+
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+
     }
+
+    @keyframes glow {
+        from {
+          text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px rgb(222,94,38), 0 0 10px rgb(222,94,38), 0 0 12px rgb(222,94,38), 0 0 15px rgb(222,94,38), 0 0 17px rgb(222,94,38);
+        }
+        to {
+          text-shadow: 0 0 5px #fff, 0 0 7px rgb(238,147,44), 0 0 10px rgb(238,147,44), 0 0 12px rgb(238,147,44), 0 0 15px rgb(238,147,44), 0 0 17px rgb(238,147,44), 0 0 20px rgb(238,147,44);
+        }
+      }
+      
     .parContent{
         display: grid;
         grid-template-columns: 2fr 1fr;

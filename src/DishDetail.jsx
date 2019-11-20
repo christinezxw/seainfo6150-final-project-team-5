@@ -17,6 +17,10 @@ const DishDetail = props => {
                         <p>{props.dish.summary}</p>
                     </div>
                     <div>
+                        <h3 className = {styles.h3Title}>Category</h3>
+                        <p>{props.dish.category}</p>
+                    </div>
+                    <div>
                         <h3 className = {styles.h3Title}>Level</h3>
                         <p>{props.dish.level}</p>
                     </div>
