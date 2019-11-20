@@ -31,7 +31,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/categorylist" exact component={CategoryList}/>
-        <Route path="/:category" 
+        <Route path="/category/:category" 
           exact 
           render = {({match}) => (
             <CategoryPage category={match.params.category}/>

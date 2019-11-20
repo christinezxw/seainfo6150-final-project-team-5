@@ -62,7 +62,7 @@ export default class Home extends Component {
                 
                 <div className={styles.big_grid_1}>
                     <h1>Soup</h1>
-                    <a href ="/soup"><img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/11/1/2/FNM_120110-Ask-Ellie-001_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382539602880.jpeg" href></img></a>
+                    <a href ="/category/soup"><img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/11/1/2/FNM_120110-Ask-Ellie-001_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382539602880.jpeg" href></img></a>
                 </div>
                 {
                     dishes
@@ -78,7 +78,7 @@ export default class Home extends Component {
                 }
                 <div className={styles.big_grid_2}>
                     <h1>Thanksgiving</h1>
-                    <a href ="/thanksgiving recipe"><img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/3/26/0/BX0808H_balsamic-roasted-brussels-sprouts-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1402583469880.jpeg" href></img></a>
+                    <a href ="/category/thanksgiving recipe"><img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/3/26/0/BX0808H_balsamic-roasted-brussels-sprouts-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1402583469880.jpeg" href></img></a>
                 </div> 
                 </div>
                 </div>

@@ -7,12 +7,25 @@
 
 }
 
+h1{
+    margin:5px;
+    padding:5px;
+    color: rgb(198, 58, 27);
+    font-family: Palatino, serif;
+    font-size: 60px;
+}
+
 @media (min-width: 500px){
     .navigation{
         margin:10px;
         padding:10px;
         display: grid;
         grid-template-columns: repeat(1, 96%);
+    }
+
+    h1{
+        
+        font-size: 30px;
     }
 }
 
@@ -23,6 +36,10 @@
         display: grid;
         grid-template-columns: repeat(2, 48%);
     }
+    h1{
+        
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 1000px){
@@ -31,6 +48,10 @@
         padding:10px;
         display: grid;
         grid-template-columns: repeat(4, 24%);
+    }
+    h1{
+        
+        font-size: 60px;
     }
 }
 
