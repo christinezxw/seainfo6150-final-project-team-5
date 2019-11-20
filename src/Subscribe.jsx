@@ -17,7 +17,7 @@ export default class Subscribe extends Component {
 
     render() {
         return(
-            <div>
+            <div className={styles.div}>
 
                 <header className = {styles.header}>
                     Subscribe Page<br/><br/>
@@ -59,8 +59,9 @@ export default class Subscribe extends Component {
                                 <option value="desserts">Desserts</option>
                             </select><br/>
                         </label>
-
-                        <input type="submit" value="submit" />
+                        <label>
+                            <input type="submit" value="submit" />
+                        </label>
                     </form>
                 </section>
 
