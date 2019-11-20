@@ -10,7 +10,7 @@
         "width": 400
       },
       "level": "Easy",
-      "time": "45 min",
+      "totaltime": "45 min",
       "yield": 6,
       "ingredients": [
         "2 tablespoons extra-virgin olive oil",
@@ -46,7 +46,7 @@
       "width": 400
     },
     "level": "Easy",
-    "time": "6 hr 15 min",
+    "totaltime": "6 hr 15 min",
     "yield": 12,
     "ingredients": [
       "2 pounds ground beef",
@@ -83,7 +83,7 @@
       "width": 400
     },
     "level": "Easy",
-    "time": "35 min",
+    "totaltime": "35 min",
     "yield": 5,
     "ingredients": [
       "2 tablespoons vegetable oil",
@@ -117,7 +117,7 @@
       "width": 400
     },
     "level": "Intermediate",
-    "time": "1 hr 15 min",
+    "totaltime": "1 hr 15 min",
     "yield": 7,
     "ingredients": [
       "2 tablespoons olive oil",
@@ -147,7 +147,7 @@
       "width": 400
     },
     "level": "Intermediate",
-    "time": "1 hr",
+    "totaltime": "1 hr",
     "yield": 6,
     "ingredients": [
       "2- to 3-pound butternut squash, peeled and seeded",
@@ -172,7 +172,7 @@
       "width": 400
     },
     "level": "Intermediate",
-    "time": "1 hr 25 min",
+    "totaltime": "1 hr 25 min",
     "yield": 6,
     "ingredients": [
       "4 tablespoons olive oil",
