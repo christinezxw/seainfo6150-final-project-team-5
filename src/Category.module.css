@@ -1,28 +1,94 @@
-.category{
-    
-    font-family: Helvetica;
-    font-size: 15px;
-    display: flex;
+section{
+    margin:10px;
+    padding: 10px;
+    font-family: Palatino, serif;
+    font-size: 20px;
+    display: flow;
     justify-content: space-between;
-    flex-flow: column nowrap;
+    background: rgba(250, 245, 238, 0.5);
+    box-shadow: 0 6px 8px 0 dimgray; 
 }
 
 .dishTitle{
+    margin:-5px;
+    padding:5px;
     color: rgb(198, 58, 27);
     font-size: 45px;
 }
 
 .image{
-    box-shadow: 0 6px 8px 0 dimgray; 
-    /* width:800px; */
-    /* height: 600px; */
+    margin:5px;
+    padding:5px;
+
 }
 
-.summaryTitle{
+.summaryDiv{
+    margin:10px;
+    padding: 10px;
+    border: 2px solid rgb(237, 125, 50);
+}
+h2{
+    padding:5px;
     color: rgb(198, 58, 27);
     font-size:35px;
 }
 
-.summary{
-    border: 2px solid rgb(237, 125, 50);
+p{
+    margin:5px;
+    font-size:20px;
+    font-family: Trebuchet MS, sans-serif;
+    
 }
+
+@media (min-width: 500px) {
+    .dishTitle{
+        margin:-5px;
+        padding:5px;
+        font-size: 35px;
+    }
+    .image{
+        margin:5px;
+        padding:5px;
+        position: center;
+        right:-10px;
+    
+    }
+    
+}
+
+@media (min-width: 800px) {
+    .dishTitle{
+        margin:-5px;
+        padding:5px;
+        font-size: 25px;
+    }
+
+    .image{
+        margin:5px;
+        padding:5px;
+        position:center;
+        right:-10px;
+    
+    }
+    
+}
+
+@media (min-width: 1000px) {
+    .dishTitle{
+        margin:-5px;
+        padding:5px;
+        font-size: 45px;
+    }
+    .image{
+        margin:5px;
+        padding:5px;
+        position:center;
+        right:-10px;
+    
+    }
+    
+}
+
+
+
+
