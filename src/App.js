@@ -8,6 +8,7 @@ import CategoryList from "./CategoryList.jsx";
 import CategoryPage from "./CategoryPage.jsx";
 import Subscribe from "./Subscribe.jsx";
 import AboutUs from "./AboutUs.jsx";
+import Navigation from "./commonComponents/Navigation.jsx";
 import Footer from './commonComponents/Footer.jsx';
 
 const externalContent = {
@@ -22,12 +23,7 @@ function App() {
     <Router>
       <header>
         <nav>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/categorylist">Category</Link></li>
-            <li><Link to="/subscribe">Subscribe</Link></li>
-            <li><Link to="/aboutus">AboutUs</Link></li>
-          </ul>
+          <Navigation/>
         </nav>
       </header>
       {/* A <Switch> looks through its children <Route>s and

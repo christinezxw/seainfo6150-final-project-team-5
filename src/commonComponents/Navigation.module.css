@@ -1,0 +1,36 @@
+.navigation{
+    background: rgba(250, 220, 186, 0.5);
+    margin:10px;
+    padding:10px;
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+
+}
+
+@media (min-width: 500px){
+    .navigation{
+        margin:10px;
+        padding:10px;
+        display: grid;
+        grid-template-columns: repeat(1, 96%);
+    }
+}
+
+@media (min-width: 800px){
+    .navigation{
+        margin:10px;
+        padding:10px;
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+    }
+}
+
+@media (min-width: 1000px){
+    .navigation{
+        margin:10px;
+        padding:10px;
+        display: grid;
+        grid-template-columns: repeat(4, 24%);
+    }
+}
+

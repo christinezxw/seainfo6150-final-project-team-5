@@ -2,8 +2,7 @@ ul{
     display: grid;
     grid-template-columns: repeat(1, 96%);
     grid-template-rows: auto;
-    grid-column-gap: 25px;
-    justify-content:center;
+    justify-content: space-between;
 
 }
 

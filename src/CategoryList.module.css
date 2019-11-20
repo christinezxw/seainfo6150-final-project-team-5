@@ -1,3 +1,20 @@
+.section{
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    grid-template-rows: auto;
+    justify-content: space-between;
+
+    margin:10px;
+    padding: 10px;
+    font-family: Palatino, serif;
+}
+.cateDiv{
+    margin:10px;
+    padding: 10px;
+    border: 2px solid rgb(237, 125, 50);
+}
+
+
 h1{
     color: rgb(198, 58, 27);
     font-size: 45px;
@@ -12,4 +29,31 @@ img{
     box-shadow: 0 6px 8px 0 dimgray; 
     width:500px;
     height: 300px;
+}
+
+@media (min-width: 500px){
+    .section{
+        margin:10px;
+        padding:10px;
+        display: grid;
+        grid-template-columns: repeat(1, 96%);
+    }
+}
+
+@media (min-width: 800px){
+    .section{
+        margin:10px;
+        padding:10px;
+        display: grid;
+        grid-template-columns: repeat(1, 96%);
+    }
+}
+
+@media (min-width: 1000px){
+    .section{
+        margin:10px;
+        padding:10px;
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+    }
 }
