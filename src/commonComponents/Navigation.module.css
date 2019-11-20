@@ -7,12 +7,23 @@
 
 }
 
-h1{
+.navih1{
     margin:5px;
     padding:5px;
     color: rgb(198, 58, 27);
     font-family: Palatino, serif;
     font-size: 60px;
+}
+.navia{
+    color: rgb(198, 58, 27);
+}
+
+.inline{
+    list-style:none;
+    font-size: 25px;
+    font-family: Palatino, serif;
+    text-align: center;
+    
 }
 
 @media (min-width: 500px){
@@ -23,9 +34,16 @@ h1{
         grid-template-columns: repeat(1, 96%);
     }
 
-    h1{
-        
+    .navih1{
         font-size: 30px;
+    }
+
+    .inline{
+        list-style:none;
+        font-size: 25px;
+        font-family: Palatino, serif;
+        text-align: left;
+        
     }
 }
 
@@ -36,9 +54,17 @@ h1{
         display: grid;
         grid-template-columns: repeat(2, 48%);
     }
-    h1{
+    .navih1{
         
         font-size: 50px;
+    }
+
+    .inline{
+        list-style:none;
+        font-size: 25px;
+        font-family: Palatino, serif;
+        text-align: left;
+        
     }
 }
 
@@ -49,9 +75,17 @@ h1{
         display: grid;
         grid-template-columns: repeat(4, 24%);
     }
-    h1{
+    .navih1{
         
         font-size: 60px;
+    }
+
+    .inline{
+        list-style:none;
+        font-size: 25px;
+        font-family: Palatino, serif;
+        text-align: center;
+        
     }
 }
 

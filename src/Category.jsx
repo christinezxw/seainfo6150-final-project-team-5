@@ -7,14 +7,14 @@ const Category = props => {
         
         <section className = {styles.category}>
             
-            <div className = {styles.image}>
-                <img src={props.dish.img.url}/>
-                <h1 className = {styles.dishTitle}>{props.dish.name}</h1>
+            <div>
+                <img className = {styles.cateimage} src={props.dish.img.url}/>
+                <a className = {styles.catea} href={"/detail/" +props.dish.id}><h1 className = {styles.dishTitle}>{props.dish.name}</h1></a>
             </div>
             <div className = {styles.summaryDiv}>
                 
                 <h2 className = {styles.summaryTitle}>Summary</h2>
-                <p>{props.dish.summary}</p>
+                <p className={styles.summaryP}>{props.dish.summary}</p>
             </div>
             
             

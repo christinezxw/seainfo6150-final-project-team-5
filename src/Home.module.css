@@ -1,12 +1,5 @@
 
 
-
-
-
-
-
-
-
 /* > 1000 code point */
 .GridContainer {
     grid-auto-flow: column;
@@ -26,9 +19,15 @@
     padding: 0.1em;
 }
 
-img {
-    width: auto;
+.homeimg {
+    width: 80%;
+    height:80%;
     max-width: 100%;
+}
+.homeh1{
+    color: rgb(198, 58, 27);
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 30px;
 }
 
 

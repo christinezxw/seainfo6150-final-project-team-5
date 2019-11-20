@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import dishes from "./data/dishes.json"
 import Category from "./Category.jsx"
-import './CategoryPage.module.css'
+import styles from "./CategoryPage.module.css"
 
 const CategoryPage = (props) => {
     var dishArray = new Array();
@@ -12,10 +12,10 @@ const CategoryPage = (props) => {
         }
     }
     return(
-    <ul>
+    <ul className={styles.cateUl}>
     
     {dishArray.map(dish => (
-        <li key={dish.name}><Category dish = {dish}/></li>
+        <li className={styles.cateli} key={dish.name}><Category dish = {dish}/></li>
 
     ))}
     </ul>

@@ -1,4 +1,4 @@
-ul{
+.cateUl{
     display: grid;
     grid-template-columns: repeat(1, 96%);
     grid-template-rows: auto;
@@ -6,12 +6,12 @@ ul{
 
 }
 
-li{
+.cateli{
     list-style:none;
 }
 
 @media (min-width: 500px) {
-    ul{
+    .cateUl{
         margin-right:30px;
         display: grid;
         grid-template-columns: repeat(1, 96%);
@@ -22,7 +22,7 @@ li{
 }
 
 @media (min-width: 800px) {
-    ul{
+    .cateUl{
         margin-right:30px;
         display: grid;
         grid-template-columns: repeat(2, 48%);
@@ -33,7 +33,7 @@ li{
 }
 
 @media (min-width: 1000px) {
-    ul{
+    .cateUl{
         margin-right:30px;
         display: grid;
         grid-template-columns: repeat(3, 32%);
