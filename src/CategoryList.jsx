@@ -13,7 +13,7 @@ const CategoryList = () => {
                 
             </div>
             <div className={styles.cateDiv}>
-                <a className = {styles.cla} href="/category/Chrismas Recipe"><h1 className = {styles.h1Title} href>Chrismas</h1></a>
+                <a className = {styles.cla} href="/category/Chrismas Recipe"><h1 className = {styles.h1Title} href>Christmas</h1></a>
                 <img className = {styles.climage} src="/images/GiganticStandingSnowman.jpg"></img>
             </div>
             <div className={styles.cateDiv}>
