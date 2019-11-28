@@ -5,17 +5,17 @@ const AboutUs = () => {
     return (
         <div className={styles.div}>
             <h1 className={styles.header}>
-            About the website<br/>
+            ABOUT THE WEBSITE<br/>
             </h1>
             <p className={styles.text}>
 
                 Our mission is to provide people<br/>
-                a welcomed, colorful website of dishes <br/>
+                a welcomed, colorful website, <br/>
                 and make it useful and fully accessible.<br/><br/><br/>
             </p>
 
             <h1 className={styles.header}>
-                Who are we?<br/>
+                WHO ARE WE?<br/>
             </h1>
             <p className={styles.text}>
 
@@ -25,13 +25,13 @@ const AboutUs = () => {
             </p>
 
             <h1 className={styles.header}>
-                How to contact?<br/>
+                HOW TO CONTACT?<br/>
             </h1>
             <p className={styles.text}>
 
                 If your have any question.<br/>
                 Please feel free to contact us.<br/>
-                email: XXXXXXX@husky.neu.edu <br/><br/><br/>
+                <a href="mailto:GiveMe5Recipe@dishes.com">GiveMe5Recipe@dishes.com</a> <br/><br/><br/>
             </p>
 
 
