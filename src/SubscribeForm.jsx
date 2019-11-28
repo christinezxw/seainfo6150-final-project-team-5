@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import {Col, Button,Form, FormGroup,Label,Input} from "reactstrap";
 import styles from "./SubscribeForm.module.css"
 
 export default class SubscribeForm extends Component {
