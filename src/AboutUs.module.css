@@ -1,13 +1,13 @@
 .div{
-    text-align: center;
-}
+     text-align: center;
+ }
 
 .header{
-    font-size: 25px;
-    font-style: oblique;
+    font-size: 30px ;
+    font-family: "Gill Sans", sans-serif;
 }
 
 .text{
-    font-style: italic;
-    font-size: 25px;
+    font-style: italic ;
+    font-size: 25px ;
 }
