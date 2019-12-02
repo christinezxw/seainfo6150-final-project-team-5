@@ -73,3 +73,8 @@ Strong{
 label{
     margin-left: 27px;
 }
+
+select{
+    font-size: 20px;
+    margin-left: 10px;
+}
