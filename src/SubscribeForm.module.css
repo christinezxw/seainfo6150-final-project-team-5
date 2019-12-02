@@ -63,3 +63,10 @@ textarea{
     margin-left: 25px;
 }
 
+Strong{
+    margin-left: 10px;
+    color: red;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+}
