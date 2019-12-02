@@ -29,7 +29,7 @@ export default class SubscribeForm extends Component {
         let err = '';
         if (name === "number") {
             if (value != "" && !Number(value)) {
-                err = <strong>Your input must be number! </strong>;
+                err = <strong>Input must be number! </strong>;
             }
         }
         this.setState({errormessage: err});
