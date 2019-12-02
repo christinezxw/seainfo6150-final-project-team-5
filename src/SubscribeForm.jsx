@@ -6,8 +6,8 @@ export default class SubscribeForm extends Component {
     state = {
         FirstName: '',
         LastName: '',
-        email:'',
-        number:'',
+        email: '',
+        number: '',
         gender: '',
         section: '',
         frequency: '',
@@ -16,7 +16,7 @@ export default class SubscribeForm extends Component {
     };
 
     handleFormSubmit = (e) => {
-        alert('Hi '+this.state.FirstName+'! Thank you for your subscribe!');
+        alert('Hi ' + this.state.FirstName + '! Thank you for your subscribe!');
         e.preventDefault();
     };
 
@@ -25,53 +25,52 @@ export default class SubscribeForm extends Component {
         const input = e.target;
         const name = input.name;
         const value = input.type === 'checkbox' ? input.checked : input.value;
-        this.setState({ [name]: value });
+        this.setState({[name]: value});
         let err = '';
         if (name === "number") {
-            if (value !="" && !Number(value)) {
+            if (value != "" && !Number(value)) {
                 err = <strong>Your input must be number! </strong>;
             }
         }
         this.setState({errormessage: err});
     };
 
-    render(){
+    render() {
         const genders = ['Male', 'Female', 'Prefer not to tell'];
         const Frequencies = ['Per Week', 'Per Month', 'Never'];
         const Sections = ['Thanksgiving', 'Christmas', 'Desserts', 'Soups'];
 
-        return(
-        <form onSubmit={this.handleFormSubmit}>
-            <fieldset>
-                <legend className={styles.borderFont}>Personal Information:</legend>
-                <li>
-                    <label>
-                        First name :
-                    </label><br/>
-                        <input name="FirstName" type="text" placeholder="First Name" value={this.state.FirstName} onChange={this.handleChanges} required="required"/>
+        return (
+            <form onSubmit={this.handleFormSubmit}>
+                <fieldset>
+                    <legend className={styles.borderFont}>Personal Information:</legend>
 
-                </li>
-                <li>
                     <label>
-                        Last name :
-                    </label><br/>
-                    <input name="LastName" type="text" placeholder="Last Name" value={this.state.LastName} onChange={this.handleChanges} required="required" />
-                </li>
-                <li>
-                    <label>
-                        Email Address :
-                    </label><br/>
-                    <input name="email" type="text" placeholder="Email Address" value={this.state.email} onChange={this.handleChanges} required="required" />
-                </li>
-                <li>
-                    <label>
-                        Phone Number (optional):
-                    </label><br/>
-                    <input name="number" type="text" placeholder="Phone Number" value={this.state.number} onChange={this.handleChanges} />
-                    {this.state.errormessage}
-                </li>
+                        First name :<br/>
+                    </label>
+                    <input name="FirstName" type="text" placeholder="First Name" value={this.state.FirstName}
+                           onChange={this.handleChanges} required="required"/><br/>
 
-                <li>
+
+                    <label>
+                        Last name :<br/>
+                    </label>
+                    <input name="LastName" type="text" placeholder="Last Name" value={this.state.LastName}
+                           onChange={this.handleChanges} required="required"/><br/>
+
+                    <label>
+                        Email Address :<br/>
+                    </label>
+                    <input name="email" type="text" placeholder="Email Address" value={this.state.email}
+                           onChange={this.handleChanges} required="required"/><br/>
+
+                    <label>
+                        Phone Number (optional):<br/>
+                    </label>
+                    <input name="number" type="text" placeholder="Phone Number" value={this.state.number}
+                           onChange={this.handleChanges}/>
+                    {this.state.errormessage}<br/>
+
                     <label>Gender :</label><br/>
                     {genders.map((gender, i) =>
                         <label key={i}>
@@ -85,12 +84,10 @@ export default class SubscribeForm extends Component {
                             {gender}
                         </label>
                     )}
-                </li>
-            </fieldset>
+                </fieldset>
 
-            <fieldset>
-                <legend className={styles.borderFont}>Other Information :</legend>
-                <li>
+                <fieldset>
+                    <legend className={styles.borderFont}>Other Information :</legend>
                     <label>Favorite Section :</label><br/>
                     {Sections.map((section, i) =>
                         <label key={i}>
@@ -100,13 +97,11 @@ export default class SubscribeForm extends Component {
                                 checked={this.state.section === section.toUpperCase()}
                                 onChange={this.handleChanges}
                                 type="radio"
-                                required="required" />
+                                required="required"/>
                             {section}
                         </label>
-                    )}
-                </li>
+                    )}<br/>
 
-                <li>
                     <label>Newsletter Frequency :</label><br/>
                     {Frequencies.map((frequency, i) =>
                         <label key={i}>
@@ -116,18 +111,16 @@ export default class SubscribeForm extends Component {
                                 checked={this.state.frequency === frequency.toUpperCase()}
                                 onChange={this.handleChanges}
                                 type="radio"
-                                required="required" />
+                                required="required"/>
                             {frequency}
                         </label>
-                    )}
-                </li>
-                <li>
+                    )}<br/>
+
                     <label>Suggestions (optional):</label><br/>
-                    <textarea name="suggestion" rows="8" cols="50" placeholder=" In case you've got something to share! " value={this.state.suggestion} onChange={this.handleChanges} />
-                </li>
-            </fieldset>
-            <button type="submit">Submit</button>
-        </form>
+                    <textarea name="suggestion" rows="8" cols="50" placeholder=" In case you've got something to share! " value={this.state.suggestion} onChange={this.handleChanges}/>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
         )
     }
 }
