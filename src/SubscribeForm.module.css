@@ -32,7 +32,6 @@ input[type="radio"]{
 input[type="checkbox"]{
     display: inline-block;
     position: relative;
-    margin-left: 20px;
     width: 20px;
     height: 20px;
     border: solid 1px #ccc;
@@ -51,7 +50,7 @@ textarea{
 }
 
 button{
-    margin-left: 20px;
+    margin-left: 27px;
     background-color: #ccc;
     font-size: 20px ;
     height: 35px;
@@ -69,4 +68,8 @@ Strong{
     font-size: 18px;
     font-style: italic;
     font-weight: normal;
+}
+
+label{
+    margin-left: 27px;
 }
