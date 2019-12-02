@@ -3,6 +3,7 @@ import styles from './Card.module.css'
 
 
 const Card = (props) => {
+    console.log(props)
     var link = "#"
     if (props.link) {
         link = props.link
