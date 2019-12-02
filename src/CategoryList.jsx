@@ -22,7 +22,7 @@ const CategoryList = () => {
             </div>
             <div className={styles.cateDiv}>
                 <a className = {styles.cla} href="/category/Dessert"><h1 className = {styles.h1Title}>Dessert</h1></a>
-                <img className = {styles.climage} src="/images/QuickandEasyAppleTart.jpg"></img>
+                <img className = {styles.climage1} src="/images/QuickandEasyAppleTart.jpg"></img>
             </div>
             
             

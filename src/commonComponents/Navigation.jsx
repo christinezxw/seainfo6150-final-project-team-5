@@ -32,9 +32,12 @@ export default class Navigation extends Component {
             <div className ={styles.naviDiv}>
                 <h1 className = {styles.navih1} align="center">Give me 5 Recipe</h1>
                 <div className={styles.dropdownDiv}>
-                    <span className = {styles.home}><a className={styles.navia0}href="/">Home</a></span>
+                    
+                    <span className = {styles.icon}><div className = {styles.menuicon}></div></span>
+                    
                     <div className={styles.dropdown}>
                         <ul className={styles.navigationul0}>
+                            <li className={styles.inline0}><a className={styles.navia1}href="/">Home</a></li>
                             <li className={styles.inline0}><a className={styles.navia1}href="/categorylist">Category</a></li>
                             <li className={styles.inline0}><a className={styles.navia1}href="/subscribe">Subscribe</a></li>
                             <li className={styles.inline0}><a className={styles.navia1}href="/aboutus">About Us</a></li>

@@ -1,11 +1,23 @@
-@media (min-width: 500px){
     
-    .navia0{
-        color: rgb(198, 58, 27);
-    }
     .navia1{
         color: rgb(198, 58, 27);
     }
+    .icon{
+        font-family:Comic Sans MS;
+        font-size:16px;
+        
+    }
+    .menuicon{
+        width: 45px;
+		height: 5px;
+		border-top: 5px solid rgb(198, 58, 27);
+		border-bottom: 5px solid rgb(198, 58, 27);
+		background-color: rgb(198, 58, 27);
+        padding: 5px 0;
+        margin:5px;
+        background-clip:content-box;
+    }
+    
     
 
     .inline0{
@@ -37,13 +49,71 @@
         width:120px;
         
     }
-    .home{
-        /* background-color:rgba(250, 220, 186, 0.5); */
+
+    .dropdown{
+        display:none;
+        position:absolute;
+        background-color:white;
+        margin:0px;
         padding:5px;
-        font-size: 40px;
-        font-family: Palatino, serif;
+
+        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+        min-width: 150px;
+    }
+
+@media (min-width: 500px){
+    
+    .navia1{
+        color: rgb(198, 58, 27);
+    }
+    .icon{
+        font-family:Comic Sans MS;
+        font-size:16px;
         
     }
+    .menuicon{
+        width: 45px;
+		height: 5px;
+		border-top: 5px solid rgb(198, 58, 27);
+		border-bottom: 5px solid rgb(198, 58, 27);
+		background-color: rgb(198, 58, 27);
+        padding: 5px 0;
+        margin:5px;
+        background-clip:content-box;
+    }
+    
+    
+
+    .inline0{
+        list-style:none;
+        line-height:30px;
+        margin-left:-30px;
+        padding:10px;
+        position: left;
+        font-size: 24px;
+        font-family: Palatino, serif;
+    }
+    .navigationul0 :hover{
+        background-color:rgba(243, 248, 194, 0.5);
+        /* height:50px; */
+        width:100%;
+    }
+    .dropdownDiv{
+        display:inline-block;
+        position:relative;
+        background-color:rgba(250, 220, 186, 0.5);
+        margin:5px;
+        padding:5px;
+        width:95%;
+        
+    }
+    .dropdownDiv:hover .dropdown{
+        display:block;
+        background-color: white;
+        width:120px;
+        
+    }
+
     .dropdown{
         display:none;
         position:absolute;
