@@ -12,6 +12,7 @@ export default class SubscribeForm extends Component {
         section: '',
         frequency: '',
         suggestion: '',
+        errormessage: '',
     };
 
     handleFormSubmit = (e) => {
@@ -25,6 +26,13 @@ export default class SubscribeForm extends Component {
         const name = input.name;
         const value = input.type === 'checkbox' ? input.checked : input.value;
         this.setState({ [name]: value });
+        let err = '';
+        if (name === "number") {
+            if (value !="" && !Number(value)) {
+                err = <strong>Your input must be number! </strong>;
+            }
+        }
+        this.setState({errormessage: err});
     };
 
     render(){
@@ -60,6 +68,7 @@ export default class SubscribeForm extends Component {
                         Phone Number (optional):
                     </label><br/>
                     <input name="number" type="text" placeholder="Phone Number" value={this.state.number} onChange={this.handleChanges} />
+                    {this.state.errormessage}
                 </li>
 
                 <li>
