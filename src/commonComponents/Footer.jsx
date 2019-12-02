@@ -5,7 +5,8 @@ import styles from './Footer.module.css'
 const Footer = (props) => {
     return (
         <div className={styles.footer}>
-            <div><a className={styles.footera} href="/aboutus">About Us</a></div>
+            <span className = {styles.cr}>Copyright © 2019 GiveMe5Recipe</span>
+            <span className = {styles.au}><a className={styles.footera} href="/aboutus">About Us</a></span>
         </div>
     )
 }

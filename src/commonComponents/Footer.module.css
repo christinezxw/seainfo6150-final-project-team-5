@@ -2,13 +2,30 @@
     background: rgba(238, 147, 44, 0.5);
     margin-top:10px;
     padding:10px;
+    overflow: auto;
+    font-size: 15px;
 }
 .footera{
     color: rgb(198, 58, 27);
 }
 
+.cr{
+    float: left;
+    font-family: Arial;
+}
+
+.au{
+    float: right;
+}
+
 @media (min-width: 500px){
     .footer{
         margin: 10px;
+    }
+}
+
+@media (min-width: 800px){
+    .cr{
+        font-size: 10px;
     }
 }
