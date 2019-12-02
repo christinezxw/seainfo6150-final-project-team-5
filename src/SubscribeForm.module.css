@@ -6,6 +6,7 @@ fieldset {
 
 
 input {
+    margin-left: 25px;
     width: 180px;
     height: 25px;
     padding: 0 25px;
@@ -49,12 +50,16 @@ textarea{
     font-weight: bold;
 }
 
-input[type="submit"]{
+button{
     margin-left: 20px;
     background-color: #ccc;
     font-size: 20px ;
     height: 35px;
     width: 200px;
     border-radius: 15px;
+}
+
+textarea{
+    margin-left: 25px;
 }
 
