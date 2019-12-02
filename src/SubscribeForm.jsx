@@ -114,7 +114,7 @@ export default class SubscribeForm extends Component {
                 </li>
                 <li>
                     <label>Suggestions (optional):</label><br/>
-                    <textarea name="message" rows="8" cols="50" placeholder=" In case you've got something to share! " value={this.state.suggestion} onChange={this.handleChanges} />
+                    <textarea name="suggestion" rows="8" cols="50" placeholder=" In case you've got something to share! " value={this.state.suggestion} onChange={this.handleChanges} />
                 </li>
             </fieldset>
             <button type="submit">Submit</button>
