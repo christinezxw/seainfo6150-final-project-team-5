@@ -3,95 +3,122 @@ import styles from "./SubscribeForm.module.css"
 
 export default class SubscribeForm extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            submittedForm: null
-        };
-    }
+    state = {
+        FirstName: '',
+        LastName: '',
+        email:'',
+        number:'',
+        gender: '',
+        section: '',
+        frequency: '',
+        suggestion: '',
+    };
 
-    handleSubmit(event) {
-        alert('Thank you for your subscribe!');
+    handleFormSubmit = (event) => {
+        alert('Hi '+this.state.FirstName+'! Thank you for your subscribe!');
         event.preventDefault();
-    }
+    };
 
-    render() {
-        return (
-            <form onSubmit={this.handleSubmit}>
-                    <fieldset>
-                        <legend className={styles.borderFont}>Personal Information:</legend>
 
-                        <label>
-                            First name :<br/>
-                            <input type="firstName" placeholder="First Name"  name="text1"  required="required" /><br/>
+    handleChanges = (e) => {
+        const input = e.target;
+        const name = input.name;
+        const value = input.type === 'checkbox' ? input.checked : input.value;
+        this.setState({ [name]: value });
+    };
+
+    render(){
+        const genders = ['Male', 'Female', 'Prefer not to tell'];
+        const Frequencies = ['Per Week', 'Per Month', 'Never'];
+        const Sections = ['Thanksgiving', 'Christmas', 'Desserts', 'Soups'];
+
+        return(
+        <form onSubmit={this.handleFormSubmit}>
+            <fieldset>
+                <legend className={styles.borderFont}>Personal Information:</legend>
+                <li>
+                    <label>
+                        First name :
+                    </label><br/>
+                        <input name="FirstName" type="text" placeholder="First Name" value={this.state.FirstName} onChange={this.handleChanges} required="required"/>
+
+                </li>
+                <li>
+                    <label>
+                        Last name :
+                    </label><br/>
+                    <input name="LastName" type="text" placeholder="Last Name" value={this.state.LastName} onChange={this.handleChanges} required="required" />
+                </li>
+                <li>
+                    <label>
+                        Email Address :
+                    </label><br/>
+                    <input name="email" type="text" placeholder="Email Address" value={this.state.email} onChange={this.handleChanges} required="required" />
+                </li>
+                <li>
+                    <label>
+                        Phone Number (optional):
+                    </label><br/>
+                    <input name="number" type="text" placeholder="Phone Number" value={this.state.number} onChange={this.handleChanges} />
+                </li>
+
+                <li>
+                    <label>Gender :</label><br/>
+                    {genders.map((gender, i) =>
+                        <label key={i}>
+                            <input
+                                name="gender"
+                                value={gender.toUpperCase()}
+                                checked={this.state.gender === gender.toUpperCase()}
+                                onChange={this.handleChanges}
+                                type="radio"
+                                required="required"/>
+                            {gender}
                         </label>
+                    )}
+                </li>
+            </fieldset>
 
-                        <label>
-                            Last name :<br/>
-                            <input type="lastName" placeholder="Last Name" size="25" name="text2" required="required"/><br/>
+            <fieldset>
+                <legend className={styles.borderFont}>Other Information :</legend>
+                <li>
+                    <label>Favorite Section :</label><br/>
+                    {Sections.map((section, i) =>
+                        <label key={i}>
+                            <input
+                                name="section"
+                                value={section.toUpperCase()}
+                                checked={this.state.section === section.toUpperCase()}
+                                onChange={this.handleChanges}
+                                type="radio"
+                                required="required" />
+                            {section}
                         </label>
+                    )}
+                </li>
 
-                        <label>
-                            Email Address :<br/>
-                            <input type="emailAddress" placeholder="Email Address" name="text3" required="required" /><br/>
+                <li>
+                    <label>Newsletter Frequency :</label><br/>
+                    {Frequencies.map((frequency, i) =>
+                        <label key={i}>
+                            <input
+                                name="frequency"
+                                value={frequency.toUpperCase()}
+                                checked={this.state.frequency === frequency.toUpperCase()}
+                                onChange={this.handleChanges}
+                                type="radio"
+                                required="required" />
+                            {frequency}
                         </label>
-
-                        <label>
-                            Phone Number (optional):<br/>
-                            <input type="phoneNumber" placeholder="Phone Number" name="text4" /><br/>
-                        </label>
-
-                        <label>
-                            Your Sex :<br/>
-                            <input type="radio" name="radio1" />{''}
-                            Male
-                            <input type="radio" name="radio1" />{''}
-                            Female
-                            <input type="radio" name="radio1" />{''}
-                            Prefer Not To Tell
-                        </label>
-
-                    </fieldset>
-
-                    <br/>
-
-                    <fieldset>
-                        <legend className={styles.borderFont}>Other Information :</legend>
-
-                        <label>
-                            Your Favorite Section :<br/>
-                            <input type="checkbox" name="checkbox1" />{''}
-                            Thanksgiving
-                            <input type="checkbox" name="checkbox1" />{''}
-                            Christmas
-                            <input type="checkbox" name="checkbox1" />{''}
-                            Desserts
-                            <input type="checkbox" name="checkbox1" />{''}
-                            Soups
-                        </label><br/>
-
-                        <label>
-                            Newsletters Frequency :<br/>
-                            <input type="radio" name="radio2" />
-                            Per Week
-                            <input type="radio" name="radio2" />{''}
-                            Per Month
-                            <input type="radio" name="radio2" />{''}
-                            Per Season
-                            <input type="radio" name="radio2" />{''}
-                            Never
-                        </label><br/>
-                        <label>
-                            Suggestions :<br/>
-                            <textarea name="message" rows="8" cols="50" placeholder=" In case you've got something to share! "/>
-                        </label>
-                    </fieldset><br/>
-
-                <label>
-                    <input type="submit" value="submit"/>
-                </label>
-            </form>
-
+                    )}
+                </li>
+                <li>
+                    <label>Suggestions (optional):</label><br/>
+                    <textarea name="message" rows="8" cols="50" placeholder=" In case you've got something to share! " value={this.state.suggestion} onChange={this.handleChanges} />
+                </li>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
         )
     }
 }
