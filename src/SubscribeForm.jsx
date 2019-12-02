@@ -14,9 +14,9 @@ export default class SubscribeForm extends Component {
         suggestion: '',
     };
 
-    handleFormSubmit = (event) => {
+    handleFormSubmit = (e) => {
         alert('Hi '+this.state.FirstName+'! Thank you for your subscribe!');
-        event.preventDefault();
+        e.preventDefault();
     };
 
 
