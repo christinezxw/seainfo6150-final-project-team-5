@@ -1,0 +1,22 @@
+.breadcrumbs{
+    margin:10px;
+    height:36px;
+    line-height:36px;
+    color:rgb(198, 58, 27);
+    font-size: 20px;
+    font-family: simsun;
+}
+
+.bcA{
+    color:rgb(198, 58, 27);
+    text-decoration: none;
+}
+
+.bcA:hover{
+    color:rgb(198, 144, 27);
+    
+}
+
+.bcspan{
+    margin:0 10px;
+}

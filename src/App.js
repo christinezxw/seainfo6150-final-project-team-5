@@ -9,6 +9,7 @@ import CategoryPage from "./CategoryPage.jsx";
 import Subscribe from "./Subscribe.jsx";
 import AboutUs from "./AboutUs.jsx";
 import Navigation from "./commonComponents/Navigation.jsx";
+import BreadCrumbNavition from "./commonComponents/BreadCrumbNavigation.jsx";
 import Footer from './commonComponents/Footer.jsx';
 
 const externalContent = {
@@ -24,6 +25,7 @@ function App() {
       <header>
         <nav>
           <Navigation/>
+          <BreadCrumbNavition/>
         </nav>
       </header>
       {/* A <Switch> looks through its children <Route>s and
@@ -35,7 +37,9 @@ function App() {
           exact 
           render = {({match}) => (
             <CategoryPage category={match.params.category}/>
-          )}
+
+            )
+          }
           />
         <Route path="/subscribe" exact component={Subscribe}/>
         <Route path="/aboutus" exact component={AboutUs}/>

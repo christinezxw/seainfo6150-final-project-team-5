@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import styles from './DishDetail.module.css'
 
 const DishDetail = props => {
-    console.log(props)
     return <div>
         <div className = {styles.dishBody}>
             <div className = {styles.parContent}>
