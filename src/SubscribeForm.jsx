@@ -60,25 +60,25 @@ export default class SubscribeForm extends Component {
 
                         <label>
                             Your Favorite Section :<br/>
-                            <input type="radio" name="radio2" />{''}
+                            <input type="checkbox" name="checkbox1" />{''}
                             Thanksgiving
-                            <input type="radio" name="radio2" />{''}
+                            <input type="checkbox" name="checkbox1" />{''}
                             Christmas
-                            <input type="radio" name="radio2" />{''}
+                            <input type="checkbox" name="checkbox1" />{''}
                             Desserts
-                            <input type="radio" name="radio2" />{''}
+                            <input type="checkbox" name="checkbox1" />{''}
                             Soups
                         </label><br/>
 
                         <label>
                             Newsletters Frequency :<br/>
-                            <input type="radio" name="radio3" />
+                            <input type="radio" name="radio2" />
                             Per Week
-                            <input type="radio" name="radio3" />{''}
+                            <input type="radio" name="radio2" />{''}
                             Per Month
-                            <input type="radio" name="radio3" />{''}
+                            <input type="radio" name="radio2" />{''}
                             Per Season
-                            <input type="radio" name="radio3" />{''}
+                            <input type="radio" name="radio2" />{''}
                             Never
                         </label><br/>
                         <label>
