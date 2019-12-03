@@ -5,7 +5,8 @@
       "category": "Soup",
       "summary": "Quick and easy and delicious",
       "img": {
-        "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/11/1/2/FNM_120110-Ask-Ellie-001_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382539602880.jpeg",
+        "url": "/images/recipes/MinestroneSoup.jpg",
+        "url500":"/images/recipes/MinestroneSoup500.jpg",
         "height": 200,
         "width": 400
       },
@@ -41,7 +42,8 @@
     "category": "Soup",
     "summary": "Best taco soup recipe ever! Super easy and super tasty! Thanks for making cooking easy.",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/23/0/FN_taco-soup-010_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371602869888.jpeg",
+      "url": "/images/recipes/TacoSoup.jpg",
+      "url500":"/images/recipes/TacoSoup500.jpg",
       "height": 200,
       "width": 400
     },
@@ -78,7 +80,8 @@
     "category": "Soup",
     "summary": "Good base recipe - I added cumin, chili powder, red pepper flakes, hot sauce and 2 bay leaves to sauté into the onion and jalapeño. Added a can of sweet corn and only used one lime.",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/6/11/0/RB0112_Chicken-Tortilla-Soup.jpg.rend.hgtvcom.826.620.suffix/1371587417881.jpeg",
+      "url": "/images/recipes/ChickenTortillaSoup.jpg",
+      "url500":"/images/recipes/ChickenTortillaSoup500.jpg",
       "height": 200,
       "width": 400
     },
@@ -112,7 +115,8 @@
     "category": "Soup",
     "summary": "This was actually delicious and very hearty. I used red split lentils from Trader Joe's and 4 cups of water and a veggie bouillon cube instead of the suggested two quarts of broth. Also added a dash of red pepper flakes instead of grains of paradise.",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2007/1/19/0/ea1015_soup1.jpg.rend.hgtvcom.826.620.suffix/1382538506113.jpeg",
+      "url": "/images/recipes/LentilSoup.jpg",
+      "url500":"/images/recipes/LentilSoup500.jpg",
       "height": 200,
       "width": 400
     },
@@ -142,7 +146,8 @@
     "category": "Soup",
     "summary": "Easy to make and pretty fast, but thought it was too liquidy. Would suggest to use less broth or more squash to thicken it up.",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/23/1/FN_butternut-soup-008_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371602919396.jpeg",
+      "url": "/images/recipes/ButternutSquashSoup.jpg",
+      "url500":"/images/recipes/ButternutSquashSoup500.jpg",
       "height": 200,
       "width": 400
     },
@@ -167,7 +172,8 @@
     "category": "Soup",
     "summary": "I love this garden vegetable soup! Very tasty and healthy. Thank you for posting.",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/6/15/1/JI_28714_s4x3.jpg.rend.hgtvcom.826.620.suffix/1397748095589.jpeg",
+      "url": "/images/recipes/GardenVegetableSoup.jpg",
+      "url500":"/images/recipes/GardenVegetableSoup500.jpg",
       "height": 200,
       "width": 400
     },
@@ -200,7 +206,8 @@
       "category": "Chrismas Recipe",
       "summary": "easy but amazing meat for the home to share.",
       "img": {
-        "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/12/20/0/LR0603H_standing-rib-roast_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382543820243.jpeg",
+        "url": "/images/recipes/StandingRibRoast.jpg",
+        "url500":"/images/recipes/StandingRibRoast500.jpg",
         "height": 200,
         "width": 400
       },
@@ -241,7 +248,8 @@
     "category": "Chrismas Recipe",
     "summary": "A sausage and pepperoni pizza morphs into a festive wreath for the holiday season. Top with a golden-brown dough bow and sprinkle with fresh basil for a dish that's almost too cute to eat",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/8/16/2/FNK_Pizza-Wreath_s4x3.jpg.rend.hgtvcom.826.620.suffix/1471414091994.jpeg",
+      "url": "/images/recipes/PizzaWreath.jpg",
+      "url500":"/images/recipes/PizzaWreath500.jpg",
       "height": 200,
       "width": 400
     },
@@ -285,7 +293,8 @@
     "category": "Chrismas Recipe",
     "summary": "This impressive centerpiece is perfect for feeding a crowd at your ugly sweater party this holiday season. Coated with a meringue frosting, these bite-size cupcakes are as light as snow and easy to pull off and enjoy during the festivities.",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/8/1/0/FNK_GIGANTIC-SNOWMAN-H_s4x3.jpg.rend.hgtvcom.826.620.suffix/1533148373067.jpeg",
+      "url": "/images/recipes/GiganticStandingSnowman.jpg",
+      "url500":"/images/recipes/GiganticStandingSnowman500.jpg",
       "height": 200,
       "width": 400
     },
@@ -338,7 +347,8 @@
     "category": "Chrismas Recipe",
     "summary": "the mix of potatoes and beef, which is delicious and enjoyful.",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/11/13/5/FNM_1201120-Potato-Beef-Canapes_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382545798765.jpeg",
+      "url": "/images/recipes/Potato-BeefCanapes.jpg",
+      "url500":"/images/recipes/Potato-BeefCanapes500.jpg",
       "height": 200,
       "width": 400
     },
@@ -376,7 +386,8 @@
     "category": "Chrismas Recipe",
     "summary": "Most delicious shrimp! And so simple! Very difficult to screw this one up.",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/11/13/5/FNM_120112-Horseradish-Shrimp-Recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382545802414.jpeg",
+      "url": "/images/recipes/HorseradishShrimp.jpg",
+      "url500":"/images/recipes/HorseradishShrimp500.jpg",
       "height": 200,
       "width": 400
     },
@@ -407,7 +418,8 @@
     "category": "Chrismas Recipe",
     "summary": "easy and decilious snake.",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/2/18/0/SHM-Cookbook_Savory-Cheese-Palmiers_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382539805473.jpeg",
+      "url": "/images/recipes/SavoryCheesePalmiers.jpg",
+      "url500":"/images/recipes/SavoryCheesePalmiers500.jpg",
       "height": 200,
       "width": 400
     },
@@ -440,7 +452,8 @@
       "category": "Thanksgiving Recipe",
       "summary": "This recipe creates the BEST Thanksgiving turkey. Not dry and yummy all over!",
       "img": {
-        "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/11/24/0/IG1C11_Roast-Turkey.jpg.rend.hgtvcom.826.620.suffix/1382538696807.jpeg",
+        "url": "/images/recipes/PerfectRoastTurkey.jpg",
+        "url500":"/images/recipes/PerfectRoastTurkey500.jpg",
         "height": 200,
         "width": 400
       },
@@ -476,7 +489,8 @@
     "category": "Thanksgiving Recipe",
     "summary": "A chuckle for the posts that say.. \"after I altered the entire recipe, we loved it.\"",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/4/12/1/FNK_Sweet-Potato-Casserole_s4x3.jpg.rend.hgtvcom.826.620.suffix/1460503592924.jpeg",
+      "url": "/images/recipes/SweetPotatoCasserole.jpg",
+      "url500":"/images/recipes/SweetPotatoCasserole500.jpg",
       "height": 200,
       "width": 400
     },
@@ -513,7 +527,8 @@
     "category": "Thanksgiving Recipe",
     "summary": "Absolutely delicious! I’ve made this recipe at least 10 times and can’t wait for the next excuse to make it again!",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/3/26/0/BX0808H_balsamic-roasted-brussels-sprouts-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1402583469880.jpeg",
+      "url": "/images/recipes/Balsamic-RoastedBrusselsSprouts.jpg",
+      "url500":"/images/recipes/Balsamic-RoastedBrusselsSprouts500.jpg",
       "height": 200,
       "width": 400
     },
@@ -545,7 +560,8 @@
     "category": "Thanksgiving Recipe",
     "summary": "Hands down the best cranberry sauce recipe!  Perfect every time and it is always a hit with the family.  ",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/9/25/0/FNM-110109-Centerfold-006_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382539090248.jpeg",
+      "url": "/images/recipes/PerfectCranberrySauce.jpg",
+      "url500":"/images/recipes/PerfectCranberrySauce500.jpg",
       "height": 200,
       "width": 400
     },
@@ -575,7 +591,8 @@
     "category": "Thanksgiving Recipe",
     "summary": "I Love This Recipe! But I double all the other ingredients except the bread to make the ratios better or half the amount of bread. ",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/8/10/0/Thanksgiving-2011_BX0105-sausage-and-herb-stuffing_s4x3.jpg.rend.hgtvcom.826.620.suffix/1384540899189.jpeg",
+      "url": "/images/recipes/SausageandHerbStuffing.jpg",
+      "url500":"/images/recipes/SausageandHerbStuffing500.jpg",
       "height": 200,
       "width": 400
     },
@@ -612,7 +629,8 @@
     "category": "Thanksgiving Recipe",
     "summary": "Delish and easy! It’s a no brainer. Some mashies have so many ingredients. I wanted something easy and not too many ingredients and this delivered!! Sometimes no fuss is best!",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/9/3/0/mashedpotatoes_s4x3.jpg.rend.hgtvcom.826.620.suffix/1384541148269.jpeg",
+      "url": "/images/recipes/TylersMashedPotatoes.jpg",
+      "url500":"/images/recipes/TylersMashedPotatoes500.jpg",
       "height": 200,
       "width": 400
     },
@@ -646,7 +664,8 @@
       "category": "Dessert",
       "summary": "Made this after seeing the episode and my husband had been asking for an apple puff pastry dessert. This was so easy & delicious! Definitely a keeper and will make again. I likely didn't use a full cup of brown sugar...just eyeballed it. No problems with uneven baking. I did add some small bite sized caramel bits to one of the tarts to see how that would bake up... awesome!",
       "img": {
-        "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/8/23/0/WU0512H_quick-and-easy-apple-tart-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1440089116251.jpeg",
+        "url": "/images/recipes/QuickandEasyAppleTart.jpg",
+        "url500":"/images/recipes/QuickandEasyAppleTart500.jpg",
         "height":620,
         "width":826
       },
@@ -678,7 +697,8 @@
     "category": "Dessert",
     "summary": "This is the type of cake that tastes scrumptious “chilled”. The frosting is amazing! The grape filling is out of this world and the cake is super moist. It’s a winner in my book and is the perfect dessert to serve and share with your family this fall. If you’re fortunate enough to find seedless concord grapes like I did then that’s so awesome but if you’re not so lucky then here is my tip.",
     "img": {
-      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/8/23/0/FNM_100116-Concord-Grape-Layer-Cake_s4x3.jpg.rend.hgtvcom.826.620.suffix/1480972866648.jpeg",
+      "url": "/images/recipes/ConcordGrapeLayerCake.jpg",
+      "url500":"/images/recipes/ConcordGrapeLayerCake500.jpg",
       "height":620,
       "width":826
     },
@@ -724,7 +744,8 @@
   "category": "Dessert",
   "summary": "Very tasty and easy. Thank you ! I also use ginger, nutmeg and clove in addition to cinnamon. Other delicious recipe on the website Best of French Food. It was hard to not go back for a second helping. Will definately serve it to guests the next time we are grilling.",
   "img": {
-  "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2007/10/15/0/GL0813_Apple_Cobbler.jpg.rend.hgtvcom.826.620.suffix/1384956344816.jpeg",
+  "url": "/images/recipes/AppleCrumblewithVanillaIceCream.jpg",
+  "url500":"/images/recipes/AppleCrumblewithVanillaIceCream500.jpg",
   "height":620,
   "width":826
   },
@@ -758,7 +779,8 @@
   "category": "Dessert",
   "summary": "This is the BEST banana bread I've ever made and tasted. It varies a bit away from the traditional banana bread in it's color (better...golden yellow instead of dark dry), crunchy crust, lack of nuts and fosters glaze, but it is so delicious. I bake my bread at altitude in Denver, CO, so I need to bake it about 15-20 minutes longer at the suggested 350 degrees, but I get a golden brown crunchy crust that is totally worth it. The addition of coconut oil and yogurt keep the consistency of the cake SO moist. The glaze softens the crust and crystallizes it to a yummy chewy, crunchy tooth. I'm in love with this recipe and will continue to make it every time someone wants banana bread.",
   "img": {
-  "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/4/17/1/ZD0206H_Bananas-Foster-Bread_s4x3.jpg.rend.hgtvcom.826.620.suffix/1406092047622.jpeg",
+  "url": "/images/recipes/BananasFosterBread.jpg",
+  "url500":"/images/recipes/BananasFosterBread500.jpg",
   "height":620,
   "width": 826
   },
@@ -801,7 +823,8 @@
   "category": "Dessert",
   "summary": "Probably one of the easiest, best tasting and impressive desserts I've made. Any of the reviewers who say they followed the recipe exactly and it didn't turn out...really didn't follow the instructions. The eggs must be at room temperature and the coffee freshly brewed piping hot. I even preheated the measuring cup to make sure not to cool down the coffee at all. ",
   "img": {
-  "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/17/3/WU0609H_Pots-de-Creme_s4x3.jpg.rend.hgtvcom.826.620.suffix/1397676971749.jpeg",
+  "url": "/images/recipes/PotsdeCreme.jpg",
+  "url500":"/images/recipes/PotsdeCreme500.jpg",
   "height": 620,
   "width": 826
   },
@@ -831,7 +854,8 @@
   "category": "Dessert",
   "summary": "This is very easy to make and tastes good. I added a little bit cinnamon and put half cream half milk. Maybe that's why it took me longer than 35-40 mins to bake. I baked almost 55 mins. Mine doesn't look as pretty as ina's. Really need to arrange the pear better next time.",
   "img": {
-  "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/8/19/0/IG0505_Pear-Clafouti__s4x3.jpg.rend.hgtvcom.826.620.suffix/1431853047297.jpeg",
+  "url": "/images/recipes/PearClafouti.jpg",
+  "url500":"/images/recipes/PearClafouti500.jpg",
   "height": 620,
   "width": 826
   },
