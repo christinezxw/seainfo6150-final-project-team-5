@@ -1,0 +1,10 @@
+bingcheng hu's work journal
+
+
+discuss the wireframe and the work distrubution. I came up with the idea that some components can be shared in different pages like navigation, footer, responsive card conponent and so on. Then I gain the work of home page and card component.
+
+the home page we discuss has three phases. First in small resolution, it only contains text links of categories, then become picture and text. When the width is big enough, we can use grid to present best display effect. When I implement it, I found it was not a simple css problem, because not only the layout is change but also the content in page also changed. So I refer the doc of react and add page size listhener to detect the change of page size and then rerender the page according to current size. In the meantime, I learned a lot how to manage the layout of content using css. Like using "display: block" to let image strench to cover the whole div to make different size pictures seem neat It works very well. I found the coding of frontend is very differnet from my former experence in server code. But it is interesting.
+
+the card conponent is a responsive conponent. When it in small size, it display picture and text vertically, when the width is enough, it will display horizontally. I wish it can use anywhere. But it actually are not costumized enough for other pages. This try failed. But anyway. it is a good exercise for me building responsive page and finally use it in home page.
+
+When I finish the home page, I found there are only images on pages and no instruction for costumers that what is that. So I add effect that when customer hover mouse on image, it will appear the dish name on picture. I think this effect can tell customer what the picture means.
