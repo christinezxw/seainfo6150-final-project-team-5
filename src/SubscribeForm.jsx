@@ -106,7 +106,7 @@ export default class SubscribeForm extends Component {
                     <legend className={styles.borderFont}>Other Information :</legend>
 
                     <label>Favorite Section :
-                        <select name ="section" value={this.state.section} onChange={this.handleChanges}>
+                        <select name ="section" value={this.state.section} onChange={this.handleChanges} required="required">
                             <option value="Thanksgiving">Thanksgiving</option>
                             <option value="Christmas">Christmas</option>
                             <option value="Desserts">Desserts</option>
@@ -129,7 +129,7 @@ export default class SubscribeForm extends Component {
                     )}<br/>
 
                     <label>How Did You Hear About Us :
-                        <select name ="market" value={this.state.market} onChange={this.handleChanges}>
+                        <select name ="market" value={this.state.market} onChange={this.handleChanges} required="required">
                             <option value="email">Email Advertisements</option>
                             <option value="FriendsFamily">Friends & Family</option>
                             <option value="OnlineAds">Online Advertisements</option>
