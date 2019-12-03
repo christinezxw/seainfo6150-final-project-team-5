@@ -73,13 +73,26 @@ export default class Home extends Component {
                     dishes
                     .filter(dish => dish.category === "Thanksgiving Recipe")
                     .slice(0,4)
-                    .map(dish => (<div><a href={"/detail/" + dish.id}><img className ={styles.homeimg} src={dish.img.url}></img></a></div>))
+                    .map(dish => 
+                        (<div className={styles.imggroup}>
+                            <a href={"/detail/" + dish.id}><img className ={styles.homeimg} src={dish.img.url}></img></a>
+                            <div class={styles.imgtip}>{dish.name}</div>
+                        </div>   
+                        )
+                    )
                 }
                 {
                     dishes
                     .filter(dish => dish.category === "Soup")
                     .slice(0,4)
-                    .map(dish => (<div><a href={"/detail/" + dish.id}><img className ={styles.homeimg} src={dish.img.url}></img></a></div>))
+                    .map(dish => 
+                        (
+                        <div className={styles.imggroup}>
+                            <a href={"/detail/" + dish.id}><img className ={styles.homeimg} src={dish.img.url}></img></a>
+                            <div class={styles.imgtip}>{dish.name}</div>
+                        </div>                        
+                        )
+                    )
                 }
                 <div className={styles.big_grid_2}>
                     <a href ="/category/Thanksgiving Recipe"><img className ={styles.homeimg} src="/images/thanksGivingCate.jpg" href></img></a>
