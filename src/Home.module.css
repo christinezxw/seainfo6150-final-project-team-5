@@ -4,6 +4,8 @@
 .GridContainer {
     grid-auto-flow: column;
     display: grid;
+    align-items: stretch;
+    justify-items: stretch;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25%;
     grid-template-areas:    'b1 b1 s1 s2'
@@ -15,13 +17,13 @@
 
 
 .GridContainer > div {
-    width: 90%;
-    padding: 0.1em;
+    /* width: 90%; */
+    padding: 0.5em;
 }
 
 .homeimg {
-    width: 80%;
-    height:80%;
+    width: 100%;
+    height:100%;
     max-width: 100%;
 }
 .homeh1{

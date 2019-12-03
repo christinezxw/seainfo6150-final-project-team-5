@@ -2,7 +2,7 @@
   {
       "id": 3001,
       "name": "Minestrone Soup",
-      "category": "soup",
+      "category": "Soup",
       "summary": "Quick and easy and delicious",
       "img": {
         "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/11/1/2/FNM_120110-Ask-Ellie-001_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382539602880.jpeg",
@@ -38,7 +38,7 @@
   {
     "id": 3002,
     "name": "Taco Soup",
-    "category": "soup",
+    "category": "Soup",
     "summary": "Best taco soup recipe ever! Super easy and super tasty! Thanks for making cooking easy.",
     "img": {
       "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/23/0/FN_taco-soup-010_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371602869888.jpeg",
@@ -75,7 +75,7 @@
   {
     "id": 3003,
     "name": "Chicken Tortilla Soup",
-    "category": "soup",
+    "category": "Soup",
     "summary": "Good base recipe - I added cumin, chili powder, red pepper flakes, hot sauce and 2 bay leaves to sauté into the onion and jalapeño. Added a can of sweet corn and only used one lime.",
     "img": {
       "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/6/11/0/RB0112_Chicken-Tortilla-Soup.jpg.rend.hgtvcom.826.620.suffix/1371587417881.jpeg",
@@ -109,7 +109,7 @@
   {
     "id": 3004,
     "name": "Lentil Soup",
-    "category": "soup",
+    "category": "Soup",
     "summary": "This was actually delicious and very hearty. I used red split lentils from Trader Joe's and 4 cups of water and a veggie bouillon cube instead of the suggested two quarts of broth. Also added a dash of red pepper flakes instead of grains of paradise.",
     "img": {
       "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2007/1/19/0/ea1015_soup1.jpg.rend.hgtvcom.826.620.suffix/1382538506113.jpeg",
@@ -139,7 +139,7 @@
   {
     "id": 3005,
     "name": "Butternut Squash Soup",
-    "category": "soup",
+    "category": "Soup",
     "summary": "Easy to make and pretty fast, but thought it was too liquidy. Would suggest to use less broth or more squash to thicken it up.",
     "img": {
       "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/23/1/FN_butternut-soup-008_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371602919396.jpeg",
@@ -164,7 +164,7 @@
   {
     "id": 3006,
     "name": "Garden Vegetable Soup",
-    "category": "soup",
+    "category": "Soup",
     "summary": "I love this garden vegetable soup! Very tasty and healthy. Thank you for posting.",
     "img": {
       "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/6/15/1/JI_28714_s4x3.jpg.rend.hgtvcom.826.620.suffix/1397748095589.jpeg",
@@ -437,7 +437,7 @@
   {
       "id": 1001,
       "name": "Perfect Roast Turkey",
-      "category": "thanksgiving recipe",
+      "category": "Thanksgiving Recipe",
       "summary": "This recipe creates the BEST Thanksgiving turkey. Not dry and yummy all over!",
       "img": {
         "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/11/24/0/IG1C11_Roast-Turkey.jpg.rend.hgtvcom.826.620.suffix/1382538696807.jpeg",
@@ -473,7 +473,7 @@
   {
     "id": 1002,
     "name": "The Best Sweet Potato Casserole",
-    "category": "thanksgiving recipe",
+    "category": "Thanksgiving Recipe",
     "summary": "A chuckle for the posts that say.. \"after I altered the entire recipe, we loved it.\"",
     "img": {
       "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/4/12/1/FNK_Sweet-Potato-Casserole_s4x3.jpg.rend.hgtvcom.826.620.suffix/1460503592924.jpeg",
@@ -510,7 +510,7 @@
   {
     "id": 1003,
     "name": "Balsamic-Roasted Brussels Sprouts",
-    "category": "thanksgiving recipe",
+    "category": "Thanksgiving Recipe",
     "summary": "Absolutely delicious! I’ve made this recipe at least 10 times and can’t wait for the next excuse to make it again!",
     "img": {
       "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/3/26/0/BX0808H_balsamic-roasted-brussels-sprouts-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1402583469880.jpeg",
@@ -542,7 +542,7 @@
   {
     "id": 1004,
     "name": "Perfect Cranberry Sauce",
-    "category": "thanksgiving recipe",
+    "category": "Thanksgiving Recipe",
     "summary": "Hands down the best cranberry sauce recipe!  Perfect every time and it is always a hit with the family.  ",
     "img": {
       "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/9/25/0/FNM-110109-Centerfold-006_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382539090248.jpeg",
@@ -572,7 +572,7 @@
   {
     "id": 1005,
     "name": "Sausage and Herb Stuffing",
-    "category": "thanksgiving recipe",
+    "category": "Thanksgiving Recipe",
     "summary": "I Love This Recipe! But I double all the other ingredients except the bread to make the ratios better or half the amount of bread. ",
     "img": {
       "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/8/10/0/Thanksgiving-2011_BX0105-sausage-and-herb-stuffing_s4x3.jpg.rend.hgtvcom.826.620.suffix/1384540899189.jpeg",
@@ -609,7 +609,7 @@
   {
     "id": 1006,
     "name": "Mashed Potatoes",
-    "category": "thanksgiving recipe",
+    "category": "Thanksgiving Recipe",
     "summary": "Delish and easy! It’s a no brainer. Some mashies have so many ingredients. I wanted something easy and not too many ingredients and this delivered!! Sometimes no fuss is best!",
     "img": {
       "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/9/3/0/mashedpotatoes_s4x3.jpg.rend.hgtvcom.826.620.suffix/1384541148269.jpeg",

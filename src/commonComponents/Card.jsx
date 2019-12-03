@@ -10,10 +10,9 @@ const Card = (props) => {
     } 
     return (
         <div className={styles.container}>
-            <a href={link}>
-                <div className={styles.pic}><img src={props.imgUrl} alt={props.name} /></div>
-                <div>{props.desc}</div>
-            </a>
+            
+            <a href={link}><div className={styles.pic}><img src={props.imgUrl} alt={props.name} /></div></a>
+            <a href={link}><div className={styles.text}>{props.desc}</div></a>
         </div>
     )
 }

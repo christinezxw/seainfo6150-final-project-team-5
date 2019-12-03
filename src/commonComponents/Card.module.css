@@ -1,8 +1,15 @@
 .container {
     margin: 0.2em;
-    font-size: 1.5em;
+    font-size: 2em;
+    font: rgb(198, 58, 27);
+    font-family: Trebuchet MS, sans-serif;
     background-color: rgba(238, 147, 44, 0.5);
     max-width: 500px;
+}
+
+.text {
+    text-align:center;
+    color: rgb(198, 58, 27);
 }
 
 
@@ -21,13 +28,15 @@
     max-height: 100%;
 }
 
+
 @media screen and (min-width:500px) and (max-width:1000px){
     .container {
         max-width: 90%;
     }
 
     .container > a > div{
-        display: inline-block
+        display: inline-block;
+        align-content: center;
     }
 
     

@@ -1,6 +1,6 @@
 [
     {
-        "name": "soup",
+        "name": "Soup",
         "dishes": [3001,3002,3003,3004,3005,3006],
         "backgroudImg": "https://assets3.thrillist.com/v1/image/2790790/size/gn-gift_guide_variable_c.jpg"
     },
@@ -10,9 +10,9 @@
         "backgroudImg": "https://media.phillyvoice.com/media/images/Little_Lion_Chrsitmas_dinner.2e16d0ba.fill-735x490.png"
     },
     {
-        "name": "thanksgiving recipe",
+        "name": "Thanksgiving Recipe",
         "dishes": [1001,1002,1003,1004,1005,1006],
-        "backgroudImg": "https://www.williams-sonoma.com/wsimgs/ab/images/dp/wcm/201938/0518/img77o.jpg"
+        "backgroudImg": "https://specials-images.forbesimg.com/imageserve/1047503148/960x0.jpg?fit=scale"
     },
     {
         "name": "Dessert",

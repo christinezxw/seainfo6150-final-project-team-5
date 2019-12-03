@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import styles from './Home.module.css'
 import Card from './commonComponents/Card'
 import dishes from "./data/dishes.json"
+import category from "./data/category.json"
 
 
 
@@ -31,24 +32,25 @@ export default class Home extends Component {
     render() {
         if (this.state.width < 500) {
             return (
-            <div>
-                <p>screen width : {this.state.width}</p>
-                <p>code point 1</p>
-                <p><a href="/category/thanksgiving recipe">thanksgiving recipe</a></p>
+            <div className={styles.homeh1}>
+                {
+                    category.map(cat => (
+                        <p><a href={"/category/" + cat.name}>{cat.name}</a></p>
+                    ))
+                }
+                {/* <p><a href="/category/thanksgiving recipe">thanksgiving recipe</a></p>
                 <p><a href="/category/Dessert">Dessert Menu Category</a></p>
                 <p><a href="/category/Chrismas Recipe">Chrismas Recipe</a></p>
-                <p><a href="/category/soup">Soup Category</a></p>
+                <p><a href="/category/soup">Soup Category</a></p> */}
             </div>
             );
         } else if (this.state.width < 1000) {
 
             return (
                 <div>
-                    <p>screen width : {this.state.width}</p>
-                    <p>code point 2</p>
                     {
-                        dishes.map(dish => (
-                            <Card imgUrl={dish.img.url} desc={dish.name} link={"/detail/" + dish.id}/>
+                        category.map(cat => (
+                            <Card imgUrl={cat.backgroudImg} desc={cat.name} link={"/category/" + cat.name}/>
                         ))
                     }
                 </div>
@@ -56,29 +58,25 @@ export default class Home extends Component {
         } else {
             return (
                 <div>
-                <p>screen width : {this.state.width}</p>
-                <p>code point 3</p>
                 <div className={styles.GridContainer}>
                 
                 <div className={styles.big_grid_1}>
-                    <h1 className={styles.homeh1}>Soup</h1>
-                    <a href ="/category/soup"><img className ={styles.homeimg} src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/11/1/2/FNM_120110-Ask-Ellie-001_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382539602880.jpeg" href></img></a>
+                    <a href ="/category/soup"><img className ={styles.homeimg} src="/images/soupDishCat.jpg" href></img></a>
                 </div>
                 {
                     dishes
-                    .filter(dish => dish.category === "thanksgiving recipe")
+                    .filter(dish => dish.category === "Thanksgiving Recipe")
                     .slice(0,4)
                     .map(dish => (<div><a href={"/detail/" + dish.id}><img className ={styles.homeimg} src={dish.img.url}></img></a></div>))
                 }
                 {
                     dishes
-                    .filter(dish => dish.category === "soup")
+                    .filter(dish => dish.category === "Soup")
                     .slice(0,4)
                     .map(dish => (<div><a href={"/detail/" + dish.id}><img className ={styles.homeimg} src={dish.img.url}></img></a></div>))
                 }
                 <div className={styles.big_grid_2}>
-                    <h1 className={styles.homeh1}>Thanksgiving</h1>
-                    <a href ="/category/thanksgiving recipe"><img className ={styles.homeimg} src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/3/26/0/BX0808H_balsamic-roasted-brussels-sprouts-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1402583469880.jpeg" href></img></a>
+                    <a href ="/category/thanksgiving recipe"><img className ={styles.homeimg} src="/images/thanksGivingCate.jpg" href></img></a>
                 </div> 
                 </div>
                 </div>
