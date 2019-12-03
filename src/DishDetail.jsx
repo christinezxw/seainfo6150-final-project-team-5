@@ -1,9 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './DishDetail.module.css'
+import BreadCrumbNavigation from './commonComponents/BreadCrumbNavigation'
 
 const DishDetail = props => {
     return <div>
+        <BreadCrumbNavigation nav={[["Home", "/"], ["Category", "/category/" + props.dish.category], [props.dish.name, "/detail/" + props.dish.id]]}/>
         <div className = {styles.dishBody}>
             <div className = {styles.parContent}>
                 <h1 className = {styles.h1Title}>{props.dish.name}</h1>

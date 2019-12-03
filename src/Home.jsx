@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styles from './Home.module.css'
 import Card from './commonComponents/Card'
+import BreadCrumbNavigation from './commonComponents/BreadCrumbNavigation'
 import dishes from "./data/dishes.json"
 import category from "./data/category.json"
 
@@ -32,22 +33,26 @@ export default class Home extends Component {
     render() {
         if (this.state.width < 500) {
             return (
-            <div className={styles.homeh1}>
-                {
-                    category.map(cat => (
-                        <p><a href={"/category/" + cat.name}>{cat.name}</a></p>
-                    ))
-                }
-                {/* <p><a href="/category/thanksgiving recipe">thanksgiving recipe</a></p>
-                <p><a href="/category/Dessert">Dessert Menu Category</a></p>
-                <p><a href="/category/Chrismas Recipe">Chrismas Recipe</a></p>
-                <p><a href="/category/soup">Soup Category</a></p> */}
+            <div>
+                <BreadCrumbNavigation nav={[["Home", "/"]]}/>
+                <div className={styles.homeh1}>
+                    {
+                        category.map(cat => (
+                            <p><a href={"/category/" + cat.name}>{cat.name}</a></p>
+                        ))
+                    }
+                    {/* <p><a href="/category/thanksgiving recipe">thanksgiving recipe</a></p>
+                    <p><a href="/category/Dessert">Dessert Menu Category</a></p>
+                    <p><a href="/category/Chrismas Recipe">Chrismas Recipe</a></p>
+                    <p><a href="/category/soup">Soup Category</a></p> */}
+                </div>
             </div>
             );
         } else if (this.state.width < 1000) {
 
             return (
                 <div>
+                    <BreadCrumbNavigation nav={[["Home", "/"]]}/>
                     {
                         category.map(cat => (
                             <Card imgUrl={cat.backgroudImg} desc={cat.name} link={"/category/" + cat.name}/>
@@ -58,6 +63,7 @@ export default class Home extends Component {
         } else {
             return (
                 <div>
+                <BreadCrumbNavigation nav={[["Home", "/"]]}/>
                 <div className={styles.GridContainer}>
                 
                 <div className={styles.big_grid_1}>

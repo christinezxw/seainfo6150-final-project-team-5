@@ -25,7 +25,6 @@ function App() {
       <header>
         <nav>
           <Navigation/>
-          <BreadCrumbNavition/>
         </nav>
       </header>
       {/* A <Switch> looks through its children <Route>s and
