@@ -6,6 +6,7 @@ import BreadCrumbNavigation from './commonComponents/BreadCrumbNavigation'
 import styles from "./CategoryPage.module.css"
 
 const CategoryPage = (props) => {
+    console.log(props)
     var dishArray = new Array();
     for( let i in dishes){
         if(dishes[i].category == props.category){

@@ -11,21 +11,16 @@ const CategoryList = () => {
             <BreadCrumbNavigation nav={[["Home", "/"], ["Category List", "/categorylist/"]]}/>
             <section className = {styles.catesection}>
             <div className={styles.cateDiv}>
-                
                 <a href ="/category/Soup"><img className = {styles.climage} src="/images/soupDishCat.jpg" href></img></a>
-                
             </div>
             <div className={styles.cateDiv}>
-                <a href ="/category/Christmas"><img className = {styles.climage} src="/images/soupDishCat.jpg" href></img></a>
-                
+                <a href ="/category/Chrismas Recipe"><img className = {styles.climage} src="/images/ChristmasCate.jpg" href></img></a>
             </div>
             <div className={styles.cateDiv}>
-                <a href ="/category/Thanksgiving Recipe"><img className = {styles.climage} src="/images/soupDishCat.jpg" href></img></a>
-                
+                <a href ="/category/Thanksgiving Recipe"><img className = {styles.climage} src="/images/thanksgivingCate.jpg" href></img></a>
             </div>
             <div className={styles.cateDiv}>
-                <a href ="/category/Dessert"><img className = {styles.climage} src="/images/soupDishCat.jpg" href></img></a>
-                
+                <a href ="/category/Dessert"><img className = {styles.climage} src="/images/DessertCate.jpg" href></img></a>
             </div>
             
             
