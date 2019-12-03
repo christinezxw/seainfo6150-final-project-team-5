@@ -2,6 +2,14 @@
     .navia1{
         color: rgb(198, 58, 27);
     }
+    .navih1{
+        
+        margin:5px;
+        padding:5px;
+        color: rgb(198, 58, 27);
+        font-family: Palatino, serif;
+        font-size: 40px;
+    }
     .icon{
         font-family:Comic Sans MS;
         font-size:16px;
@@ -66,11 +74,20 @@
     .navia1{
         color: rgb(198, 58, 27);
     }
+    .navih1{
+        
+        margin:5px;
+        padding:5px;
+        color: rgb(198, 58, 27);
+        font-family: Palatino, serif;
+        font-size: 40px;
+    }
     .icon{
         font-family:Comic Sans MS;
         font-size:16px;
         
     }
+
     .menuicon{
         width: 45px;
 		height: 5px;
