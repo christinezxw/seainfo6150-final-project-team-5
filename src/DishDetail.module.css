@@ -1,10 +1,16 @@
+.page{
+    text-align: center;
+}
+
 .dishBody{
+    text-align: left;
+    margin: auto;
     font-family: Palatino, serif;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
     flex-flow: column nowrap;
-    background: rgba(238, 147, 44, 0.5);
+    background: rgba(238, 147, 44, 0.5);    
 }
 .bodySection{
     margin:10px;
@@ -44,7 +50,10 @@
 
 .image{
     margin:10px;
-    /* box-shadow: 0 6px 8px 0 dimgray;  */
+    width: auto;
+	height: auto;
+    max-width: 90%;
+    max-height: 90%;
 }
 
 @media (min-width: 500px){
@@ -86,24 +95,23 @@
         font-size: 15px;
     }
     .image{
-        width: 100%;
+        width: 95%;
         height: 70vw;
         margin-bottom: 20px;
     }
-    img{
-        /* width: 90%; */
-        height: 100%;
-    }
+    
 }
 
 @media (min-width: 800px){
+    .dishBody{
+        max-width: 1000px;
+    }
     .h1Title{
-        font-size: 30px;
+        font-size: 26px;
         position: absolute;
         color: rgb(198, 58, 27);
-        /* text-decoration-line: overline underline rgb(198, 58, 27); */
         z-index: 1;
-
+        padding-inline-start: 1rem;
         -webkit-animation: glow 1s ease-in-out infinite alternate;
         -moz-animation: glow 1s ease-in-out infinite alternate;
         animation: glow 1s ease-in-out infinite alternate;
@@ -125,8 +133,8 @@
     }
     .image{
         object-fit: cover;
-        max-width: 100%;
-        height: 420px;
+        max-width: 90%;
+        max-height: 90%;
         margin-bottom: 10px;
     }
 
