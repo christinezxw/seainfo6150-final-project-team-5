@@ -67,7 +67,7 @@ export default class Home extends Component {
                 <div className={styles.GridContainer}>
                 
                 <div className={styles.big_grid_1}>
-                    <a href ="/category/soup"><img className ={styles.homeimg} src="/images/soupDishCat.jpg" href></img></a>
+                    <a href ="/category/Soup"><img className ={styles.homeimg} src="/images/soupDishCat.jpg" href></img></a>
                 </div>
                 {
                     dishes
@@ -82,7 +82,7 @@ export default class Home extends Component {
                     .map(dish => (<div><a href={"/detail/" + dish.id}><img className ={styles.homeimg} src={dish.img.url}></img></a></div>))
                 }
                 <div className={styles.big_grid_2}>
-                    <a href ="/category/thanksgiving recipe"><img className ={styles.homeimg} src="/images/thanksGivingCate.jpg" href></img></a>
+                    <a href ="/category/Thanksgiving Recipe"><img className ={styles.homeimg} src="/images/thanksGivingCate.jpg" href></img></a>
                 </div> 
                 </div>
                 </div>

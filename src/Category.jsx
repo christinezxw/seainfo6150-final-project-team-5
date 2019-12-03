@@ -1,11 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import BreadCrumbNavigation from './commonComponents/BreadCrumbNavigation'
 import styles from './Category.module.css'
 
 const Category = props => {
-    return <div>
+    return (
+    
+    <div>
         
         <section className = {styles.category}>
+        
             
             <div>
                 <img className = {styles.cateimage} src={props.dish.img.url}/>
@@ -23,6 +27,7 @@ const Category = props => {
         
         
     </div>
+    );
 }
 Category.propTypes = {
     dish: PropTypes.object.isRequired

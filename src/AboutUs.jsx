@@ -1,9 +1,13 @@
 import React from 'react'
 import styles from './AboutUs.module.css'
+import BreadCrumbNavigation from './commonComponents/BreadCrumbNavigation'
 
 const AboutUs = () => {
     return (
-        <div className={styles.div}>
+        <div>
+            <BreadCrumbNavigation nav={[["Home", "/"], ["About Us", "/aboutus"]]}/>
+            <div className={styles.div}>
+            
             <h1 className={styles.header}>
             ABOUT THE WEBSITE<br/>
             </h1>
@@ -36,6 +40,9 @@ const AboutUs = () => {
 
 
         </div>
+        </div>
+        
+        
     )
 }
 

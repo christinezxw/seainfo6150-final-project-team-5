@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import dishes from "./data/dishes.json"
 import Category from "./Category.jsx"
+import BreadCrumbNavigation from './commonComponents/BreadCrumbNavigation'
 import styles from "./CategoryPage.module.css"
 
 const CategoryPage = (props) => {
@@ -12,13 +13,20 @@ const CategoryPage = (props) => {
         }
     }
     return(
-    <ul className={styles.cateUl}>
+        <div>
+            <BreadCrumbNavigation nav={[["Home", "/"], ["Category List", "/categorylist/"],[props.category, "/category/" + props.category]]}/>
+            <ul className={styles.cateUl}>
+        
+        
     
-    {dishArray.map(dish => (
-        <li className={styles.cateli} key={dish.name}><Category dish = {dish}/></li>
+            {dishArray.map(dish => (
+                <li className={styles.cateli} key={dish.name}><Category dish = {dish}/></li>
 
-    ))}
-    </ul>
+            ))}
+            </ul>
+
+        </div>
+    
     );
 
     
