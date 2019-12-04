@@ -4,8 +4,6 @@ import styles from './DishDetail.module.css'
 import BreadCrumbNavigation from './commonComponents/BreadCrumbNavigation'
 
 const DishDetail = props => {
-    let imgsrc = props.dish.img.url
-    let imgsrc500 = props.dish.img.url500
 
     return <div className = {styles.page}>
         <BreadCrumbNavigation nav={[["Home", "/"], [props.dish.category, "/category/" + props.dish.category], [props.dish.name, "/detail/" + props.dish.id]]}/>
