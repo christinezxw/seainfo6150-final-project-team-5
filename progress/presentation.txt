@@ -1,0 +1,38 @@
+---presentation---
+
+general design:
+	recipe website---giveme5recipe, team5, subscribe
+	color theme--orange, red
+	look and feel--attractive, clearly, warm
+
+page templates:
+	Home page
+	category page
+	detail page
+	text-based page
+
+33 pages in total
+
+two JSON files
+
+components
+
+breakpoints
+
+--HU--
+homepage
+
+--CHEN--
+category page
+navigation
+
+
+--ZHANG--
+recipe detail page:
+	responsive image--art direction switching
+footer
+
+--JIN--
+404 page
+about us
+subscibe form
